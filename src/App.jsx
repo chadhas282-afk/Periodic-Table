@@ -6,3 +6,11 @@ import ElementModal from './components/ElementModal';
 export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedElement, setSelectedElement] = useState(null);
+
+    const handleElementClick = useCallback((element) => {
+    setSelectedElement(element);
+  }, []);
+
+  const handleCloseModal = useCallback(() => {
+    setSelectedElement(null);
+  }, []);

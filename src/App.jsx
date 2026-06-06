@@ -118,3 +118,14 @@ export default function App() {
             selectedElement={selectedElement}
           />
         </main>
+
+        <footer className="text-center py-6 text-slate-700 text-xs border-t border-slate-800/30">
+        </footer>
+      </div>
+
+      {selectedElement && (
+        <ElementModal element={selectedElement} onClose={handleCloseModal} />
+      )}
+    </div>
+  );
+}

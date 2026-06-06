@@ -8,3 +8,10 @@ function Nucleus({ protons }) {
   const meshRef = useRef();
   const clampedProtons = Math.min(protons, 120);
   const radius = 0.18 + Math.cbrt(clampedProtons) * 0.13;
+
+    useFrame((state) => {
+    if (meshRef.current) {
+      meshRef.current.rotation.y = state.clock.elapsedTime * 0.5;
+      meshRef.current.rotation.x = state.clock.elapsedTime * 0.3;
+    }
+  });

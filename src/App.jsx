@@ -73,3 +73,12 @@ export default function App() {
                   </p>
                 </div>
               </div>
+               <div className="relative w-full sm:w-80">
+                <Search size={15} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 pointer-events-none" />
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Search by name, symbol, or number…"
+                  className="w-full pl-10 pr-10 py-3 rounded-2xl text-sm text-white placeholder-slate-500 transition-all duration-300 outline-none shadow-lg"
+                  style={{

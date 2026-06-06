@@ -50,3 +50,10 @@ function Nucleus({ protons }) {
     </group>
   );
 }
+
+function ElectronOrbit({ shellIndex, electronCount, totalShells }) {
+  const orbitRef = useRef();
+  const electronsRef = useRef([]);
+
+  const orbitRadius = 1.1 + shellIndex * 0.95;
+  const speed = 0.9 - shellIndex * 0.12;

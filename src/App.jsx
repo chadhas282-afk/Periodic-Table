@@ -32,3 +32,12 @@ export default function App() {
             animation: 'floatB 25s ease-in-out infinite',
           }}
         />
+        <div
+          className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-10"
+          style={{
+            background: 'radial-gradient(circle, #06b6d4 0%, transparent 60%)',
+            animation: 'floatC 18s ease-in-out infinite',
+          }}
+        />
+        {Array.from({ length: 60 }, (_, i) => (
+          <div

@@ -88,3 +88,8 @@ export default function App() {
                     boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.2)',
                   }}
                   onFocus={(e) => {
+                     e.currentTarget.style.borderColor = 'rgba(99,102,241,0.8)';
+                    e.currentTarget.style.boxShadow = '0 0 20px rgba(99,102,241,0.2), inset 0 2px 4px rgba(0,0,0,0.2)';
+                    e.currentTarget.style.background = 'rgba(30,41,59,0.7)';
+                  }}
+                  onBlur={(e) => {

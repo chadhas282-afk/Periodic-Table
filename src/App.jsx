@@ -106,3 +106,15 @@ export default function App() {
                     <X size={14} />
                   </button>
                 )}
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main className="max-w-screen-2xl mx-auto px-2 py-6">
+          <PeriodicTable
+            searchQuery={searchQuery}
+            onElementClick={handleElementClick}
+            selectedElement={selectedElement}
+          />
+        </main>

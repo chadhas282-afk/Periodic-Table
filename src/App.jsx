@@ -93,3 +93,16 @@ export default function App() {
                     e.currentTarget.style.background = 'rgba(30,41,59,0.7)';
                   }}
                   onBlur={(e) => {
+                     e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+                    e.currentTarget.style.boxShadow = 'inset 0 2px 4px rgba(0,0,0,0.2)';
+                    e.currentTarget.style.background = 'rgba(30,41,59,0.4)';
+                  }}
+                />
+                {searchQuery && (
+                  <button
+                    onClick={() => setSearchQuery('')}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 transition-colors"
+                  >
+                    <X size={14} />
+                  </button>
+                )}

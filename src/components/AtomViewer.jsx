@@ -15,3 +15,16 @@ function Nucleus({ protons }) {
       meshRef.current.rotation.x = state.clock.elapsedTime * 0.3;
     }
   });
+
+  return (
+    <group ref={meshRef}>
+      <mesh>
+        <sphereGeometry args={[radius, 32, 32]} />
+        <meshStandardMaterial
+          color="#ff6b35"
+          emissive="#ff4400"
+          emissiveIntensity={0.5}
+          roughness={0.2}
+          metalness={0.8}
+        />
+      </mesh>

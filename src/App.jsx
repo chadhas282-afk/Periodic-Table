@@ -41,3 +41,16 @@ export default function App() {
         />
         {Array.from({ length: 60 }, (_, i) => (
           <div
+          key={i}
+            className="absolute rounded-full bg-white"
+            style={{
+              width: Math.random() * 2 + 1,
+              height: Math.random() * 2 + 1,
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              opacity: Math.random() * 0.4 + 0.1,
+              animation: `twinkle ${Math.random() * 4 + 2}s ease-in-out ${Math.random() * 4}s infinite`,
+            }}
+          />
+        ))}
+      </div>

@@ -57,3 +57,13 @@ function ElectronOrbit({ shellIndex, electronCount, totalShells }) {
 
   const orbitRadius = 1.1 + shellIndex * 0.95;
   const speed = 0.9 - shellIndex * 0.12;
+
+  useFrame((state) => {
+    electronsRef.current.forEach((electronRef, i) => {
+      if (!electronRef) return;
+      const angle = state.clock.elapsedTime * speed + (i / electronCount) * Math.PI * 2;
+      electronRef.position.x = Math.cos(angle) * orbitRadius;
+      electronRef.position.y = Math.sin(angle) * orbitRadius;
+      electronRef.position.z = 0;
+    });
+  });

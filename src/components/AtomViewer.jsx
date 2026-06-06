@@ -37,3 +37,16 @@ function Nucleus({ protons }) {
           side={THREE.BackSide}
         />
       </mesh>
+      {Array.from({ length: Math.min(protons, 8) }).map((_, i) => {
+        const angle = (i / Math.min(protons, 8)) * Math.PI * 2;
+        const r = radius * 1.7;
+        return (
+          <mesh key={i} position={[Math.cos(angle) * r, Math.sin(angle) * r, 0]}>
+            <sphereGeometry args={[0.09, 10, 10]} />
+            <meshStandardMaterial color="#ff4444" emissive="#ff2222" emissiveIntensity={0.8} />
+          </mesh>
+        );
+      })}
+    </group>
+  );
+}

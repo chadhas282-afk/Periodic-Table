@@ -82,3 +82,9 @@ export default function App() {
                   placeholder="Search by name, symbol, or number…"
                   className="w-full pl-10 pr-10 py-3 rounded-2xl text-sm text-white placeholder-slate-500 transition-all duration-300 outline-none shadow-lg"
                   style={{
+                    background: 'rgba(30,41,59,0.4)',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                    backdropFilter: 'blur(12px)',
+                    boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.2)',
+                  }}
+                  onFocus={(e) => {

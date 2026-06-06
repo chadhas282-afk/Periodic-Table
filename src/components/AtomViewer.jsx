@@ -28,3 +28,12 @@ function Nucleus({ protons }) {
           metalness={0.8}
         />
       </mesh>
+       <mesh>
+        <sphereGeometry args={[radius * 1.3, 16, 16]} />
+        <meshStandardMaterial
+          color="#ff8c42"
+          transparent
+          opacity={0.15}
+          side={THREE.BackSide}
+        />
+      </mesh>

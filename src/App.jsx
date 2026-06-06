@@ -7,7 +7,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedElement, setSelectedElement] = useState(null);
 
-    const handleElementClick = useCallback((element) => {
+  const handleElementClick = useCallback((element) => {
     setSelectedElement(element);
   }, []);
 
@@ -24,7 +24,7 @@ export default function App() {
             background: 'radial-gradient(circle, #6366f1 0%, transparent 60%)',
             animation: 'floatA 20s ease-in-out infinite',
           }}
-                  />
+        />
         <div
           className="absolute -bottom-1/2 -right-1/4 w-[800px] h-[800px] rounded-full opacity-10"
           style={{
@@ -41,7 +41,7 @@ export default function App() {
         />
         {Array.from({ length: 60 }, (_, i) => (
           <div
-          key={i}
+            key={i}
             className="absolute rounded-full bg-white"
             style={{
               width: Math.random() * 2 + 1,
@@ -54,6 +54,7 @@ export default function App() {
           />
         ))}
       </div>
+
       <div className="relative z-10">
         <header className="sticky top-0 z-40 backdrop-blur-xl border-b border-slate-800/50" style={{ background: 'rgba(2,6,23,0.8)' }}>
           <div className="max-w-screen-2xl mx-auto px-6 py-4">
@@ -63,7 +64,7 @@ export default function App() {
                   <Atom size={26} className="text-indigo-400 drop-shadow-md" />
                   <div className="absolute inset-0 rounded-2xl animate-ping opacity-20" style={{ background: '#6366f1' }} />
                 </div>
-                 <div>
+                <div>
                   <h1 className="text-2xl font-black tracking-tight bg-clip-text text-transparent drop-shadow-sm" style={{ backgroundImage: 'linear-gradient(90deg, #fff, #a5b4fc, #fbcfe8)' }}>
                     Periodic Table
                   </h1>
@@ -73,7 +74,8 @@ export default function App() {
                   </p>
                 </div>
               </div>
-               <div className="relative w-full sm:w-80">
+
+              <div className="relative w-full sm:w-80">
                 <Search size={15} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500 pointer-events-none" />
                 <input
                   type="text"
@@ -88,12 +90,12 @@ export default function App() {
                     boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.2)',
                   }}
                   onFocus={(e) => {
-                     e.currentTarget.style.borderColor = 'rgba(99,102,241,0.8)';
+                    e.currentTarget.style.borderColor = 'rgba(99,102,241,0.8)';
                     e.currentTarget.style.boxShadow = '0 0 20px rgba(99,102,241,0.2), inset 0 2px 4px rgba(0,0,0,0.2)';
                     e.currentTarget.style.background = 'rgba(30,41,59,0.7)';
                   }}
                   onBlur={(e) => {
-                     e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+                    e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
                     e.currentTarget.style.boxShadow = 'inset 0 2px 4px rgba(0,0,0,0.2)';
                     e.currentTarget.style.background = 'rgba(30,41,59,0.4)';
                   }}

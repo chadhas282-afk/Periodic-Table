@@ -63,3 +63,13 @@ export default function App() {
                   <Atom size={26} className="text-indigo-400 drop-shadow-md" />
                   <div className="absolute inset-0 rounded-2xl animate-ping opacity-20" style={{ background: '#6366f1' }} />
                 </div>
+                 <div>
+                  <h1 className="text-2xl font-black tracking-tight bg-clip-text text-transparent drop-shadow-sm" style={{ backgroundImage: 'linear-gradient(90deg, #fff, #a5b4fc, #fbcfe8)' }}>
+                    Periodic Table
+                  </h1>
+                  <p className="text-[13px] text-slate-400 font-medium flex items-center gap-1.5 mt-0.5">
+                    <Sparkles size={11} className="text-indigo-400" />
+                    Interactive 3D Element Explorer
+                  </p>
+                </div>
+              </div>

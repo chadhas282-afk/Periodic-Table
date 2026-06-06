@@ -54,3 +54,12 @@ export default function App() {
           />
         ))}
       </div>
+      <div className="relative z-10">
+        <header className="sticky top-0 z-40 backdrop-blur-xl border-b border-slate-800/50" style={{ background: 'rgba(2,6,23,0.8)' }}>
+          <div className="max-w-screen-2xl mx-auto px-6 py-4">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="relative flex items-center justify-center w-12 h-12 rounded-2xl" style={{ background: 'linear-gradient(135deg, rgba(99,102,241,0.2), rgba(79,70,229,0.1))', border: '1px solid rgba(99,102,241,0.3)', boxShadow: '0 0 20px rgba(99,102,241,0.2)' }}>
+                  <Atom size={26} className="text-indigo-400 drop-shadow-md" />
+                  <div className="absolute inset-0 rounded-2xl animate-ping opacity-20" style={{ background: '#6366f1' }} />
+                </div>

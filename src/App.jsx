@@ -14,7 +14,7 @@ export default function App() {
   const handleCloseModal = useCallback(() => {
     setSelectedElement(null);
   }, []);
-  
+
   return (
     <div className="min-h-screen bg-slate-950 text-white overflow-x-hidden">
       <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
@@ -24,3 +24,11 @@ export default function App() {
             background: 'radial-gradient(circle, #6366f1 0%, transparent 60%)',
             animation: 'floatA 20s ease-in-out infinite',
           }}
+                  />
+        <div
+          className="absolute -bottom-1/2 -right-1/4 w-[800px] h-[800px] rounded-full opacity-10"
+          style={{
+            background: 'radial-gradient(circle, #ec4899 0%, transparent 60%)',
+            animation: 'floatB 25s ease-in-out infinite',
+          }}
+        />

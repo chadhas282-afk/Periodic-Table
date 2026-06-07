@@ -97,3 +97,12 @@ export default function ElementModal({ element, onClose }) {
             <div
               className="flex items-center justify-center w-16 h-16 rounded-2xl text-3xl font-black flex-shrink-0"
               style={{
+                background: `linear-gradient(135deg, ${accentColor}33, ${accentColor}11)`,
+                border: `2px solid ${accentColor}55`,
+                color: accentColor,
+                textShadow: `0 0 24px ${accentColor}`,
+                boxShadow: `0 0 30px ${accentColor}22`,
+              }}
+            >
+              {element.symbol}
+            </div>

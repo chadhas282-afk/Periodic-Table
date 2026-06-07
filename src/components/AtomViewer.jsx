@@ -83,3 +83,14 @@ function ElectronOrbit({ shellIndex, electronCount, totalShells }) {
     }
     return pts;
   }, [orbitRadius]);
+
+    const orbitGeometry = useMemo(() => {
+    const geom = new THREE.BufferGeometry().setFromPoints(orbitPoints);
+    return geom;
+  }, [orbitPoints]);
+
+  return (
+    <group>
+      <line geometry={orbitGeometry}>
+        <lineBasicMaterial color={color} transparent opacity={0.45} linewidth={1} />
+      </line>

@@ -76,3 +76,12 @@ export default function ElementModal({ element, onClose }) {
       style={{ backdropFilter: 'blur(20px)', background: 'rgba(2,6,23,0.88)' }}
       onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
     >
+        <div
+        className="relative w-full max-w-7xl rounded-3xl overflow-hidden flex flex-col"
+        style={{
+          height: 'clamp(600px, 88vh, 900px)',
+          background: 'linear-gradient(135deg, rgba(15,23,42,0.97) 0%, rgba(2,6,23,0.99) 100%)',
+          border: `1px solid ${accentColor}33`,
+          boxShadow: `0 0 100px ${accentColor}22, 0 30px 80px rgba(0,0,0,0.8), inset 0 1px 0 rgba(255,255,255,0.06)`,
+        }}
+      >

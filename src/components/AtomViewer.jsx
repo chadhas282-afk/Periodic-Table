@@ -138,3 +138,15 @@ export default function AtomViewer({ element }) {
           totalShells={electronsPerShell.length}
         />
       ))}
+
+      <OrbitControls
+        enablePan={false}
+        minDistance={2}
+        maxDistance={18}
+        autoRotate={false}
+        enableDamping
+        dampingFactor={0.05}
+      />
+    </Canvas>
+  );
+}

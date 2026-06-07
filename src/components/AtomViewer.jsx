@@ -123,3 +123,18 @@ export default function AtomViewer({ element }) {
       style={{ background: 'transparent' }}
       gl={{ antialias: true, alpha: true }}
     >
+      <ambientLight intensity={0.3} />
+      <pointLight position={[5, 5, 5]} intensity={1.5} color="#ffffff" />
+      <pointLight position={[-5, -5, -5]} intensity={0.5} color="#6366f1" />
+      <pointLight position={[0, 0, 0]} intensity={0.8} color="#ff6b35" />
+
+      <Nucleus protons={atomicNumber} />
+
+      {electronsPerShell.map((electronCount, i) => (
+        <ElectronOrbit
+          key={i}
+          shellIndex={i}
+          electronCount={electronCount}
+          totalShells={electronsPerShell.length}
+        />
+      ))}

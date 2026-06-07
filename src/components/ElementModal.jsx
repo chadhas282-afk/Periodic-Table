@@ -67,3 +67,12 @@ export default function ElementModal({ element, onClose }) {
   }, [handleKeyDown]);
 
   if (!element) return null;
+
+  const accentColor = category?.color || '#6366f1';
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4"
+      style={{ backdropFilter: 'blur(20px)', background: 'rgba(2,6,23,0.88)' }}
+      onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+    >

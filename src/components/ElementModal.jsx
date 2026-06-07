@@ -32,3 +32,11 @@ function PropertyBar({ label, value, unit, min, max, color }) {
           className="h-full rounded-full transition-all duration-700 ease-out"
           style={{
             width: `${pct}%`,
+            background: value == null ? '#374151' : `linear-gradient(90deg, ${color}88, ${color})`,
+            boxShadow: value != null ? `0 0 10px ${color}55` : 'none',
+          }}
+        />
+      </div>
+    </div>
+  );
+}

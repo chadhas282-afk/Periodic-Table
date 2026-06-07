@@ -76,4 +76,10 @@ function ElectronOrbit({ shellIndex, electronCount, totalShells }) {
     for (let i = 0; i <= 128; i++) {
       const angle = (i / 128) * Math.PI * 2;
       pts.push(new THREE.Vector3(
-        
+        Math.cos(angle) * orbitRadius,
+        Math.sin(angle) * orbitRadius,
+        0,
+      ));
+    }
+    return pts;
+  }, [orbitRadius]);

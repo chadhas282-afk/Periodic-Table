@@ -49,3 +49,10 @@ function InfoChip({ label, value }) {
     </div>
   );
 }
+
+export default function ElementModal({ element, onClose }) {
+  const category = element ? CATEGORIES[element.category] : null;
+
+  const handleKeyDown = useCallback((e) => {
+    if (e.key === 'Escape') onClose();
+  }, [onClose]);

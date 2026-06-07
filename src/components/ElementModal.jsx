@@ -40,3 +40,12 @@ function PropertyBar({ label, value, unit, min, max, color }) {
     </div>
   );
 }
+
+function InfoChip({ label, value }) {
+  return (
+    <div className="bg-slate-800/70 rounded-xl p-3.5 border border-slate-700/40 backdrop-blur-sm">
+      <div className="text-[10px] uppercase tracking-widest text-slate-500 mb-1.5 font-medium">{label}</div>
+      <div className="text-sm text-slate-100 font-semibold break-all leading-snug">{value ?? 'N/A'}</div>
+    </div>
+  );
+}

@@ -113,3 +113,13 @@ function ElectronOrbit({ shellIndex, electronCount, totalShells }) {
     </group>
   );
 }
+
+export default function AtomViewer({ element }) {
+  const { electronsPerShell = [1], atomicNumber = 1 } = element || {};
+
+  return (
+    <Canvas
+      camera={{ position: [0, 0, 8.5], fov: 60 }}
+      style={{ background: 'transparent' }}
+      gl={{ antialias: true, alpha: true }}
+    >

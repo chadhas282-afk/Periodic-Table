@@ -23,3 +23,12 @@ function PropertyBar({ label, value, unit, min, max, color }) {
     <div className="space-y-1.5">
       <div className="flex justify-between items-center">
         <span className="text-xs text-slate-400 font-medium">{label}</span>
+         <span className="text-xs text-slate-200 font-mono">
+          {display} <span className="text-slate-500">{unit}</span>
+        </span>
+      </div>
+      <div className="h-2 bg-slate-700/60 rounded-full overflow-hidden">
+        <div
+          className="h-full rounded-full transition-all duration-700 ease-out"
+          style={{
+            width: `${pct}%`,

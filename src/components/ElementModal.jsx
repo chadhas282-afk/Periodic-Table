@@ -12,3 +12,14 @@ const PROPERTY_RANGES = {
   boilingPoint:      { min: -268.93,     max: 5596,  label: 'Boiling Point',     unit: '°C' },
   density:           { min: 0.00008988,  max: 40.7,  label: 'Density',           unit: 'g/cm³' },
 };
+
+function PropertyBar({ label, value, unit, min, max, color }) {
+  const pct = value == null ? 0 : Math.max(0, Math.min(100, ((value - min) / (max - min)) * 100));
+  const display = value == null ? 'N/A'
+    : typeof value === 'number' && !Number.isInteger(value) ? value.toFixed(3)
+    : value;
+
+  return (
+    <div className="space-y-1.5">
+      <div className="flex justify-between items-center">
+        <span className="text-xs text-slate-400 font-medium">{label}</span>

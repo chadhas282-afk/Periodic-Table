@@ -94,3 +94,12 @@ function ElectronOrbit({ shellIndex, electronCount, totalShells }) {
       <line geometry={orbitGeometry}>
         <lineBasicMaterial color={color} transparent opacity={0.45} linewidth={1} />
       </line>
+      {Array.from({ length: Math.min(electronCount, 32) }).map((_, i) => (
+        <mesh
+          key={i}
+          ref={(el) => (electronsRef.current[i] = el)}
+          position={[orbitRadius, 0, 0]}
+        >
+          <sphereGeometry args={[0.13, 14, 14]} />
+          <meshStandardMaterial
+            color={color}

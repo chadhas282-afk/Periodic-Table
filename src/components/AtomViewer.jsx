@@ -103,3 +103,13 @@ function ElectronOrbit({ shellIndex, electronCount, totalShells }) {
           <sphereGeometry args={[0.13, 14, 14]} />
           <meshStandardMaterial
             color={color}
+            emissive={color}
+            emissiveIntensity={0.9}
+            roughness={0.1}
+            metalness={0.3}
+          />
+        </mesh>
+      ))}
+    </group>
+  );
+}

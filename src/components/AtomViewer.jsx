@@ -67,3 +67,13 @@ function ElectronOrbit({ shellIndex, electronCount, totalShells }) {
       electronRef.position.z = 0;
     });
   });
+
+  const shellColors = ['#60a5fa', '#34d399', '#a78bfa', '#f472b6', '#fb923c', '#facc15', '#22d3ee'];
+  const color = shellColors[shellIndex % shellColors.length];
+
+  const orbitPoints = useMemo(() => {
+    const pts = [];
+    for (let i = 0; i <= 128; i++) {
+      const angle = (i / 128) * Math.PI * 2;
+      pts.push(new THREE.Vector3(
+        

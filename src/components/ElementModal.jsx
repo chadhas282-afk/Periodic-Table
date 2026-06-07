@@ -85,3 +85,15 @@ export default function ElementModal({ element, onClose }) {
           boxShadow: `0 0 100px ${accentColor}22, 0 30px 80px rgba(0,0,0,0.8), inset 0 1px 0 rgba(255,255,255,0.06)`,
         }}
       >
+         <div
+          className="relative flex items-center justify-between px-8 py-5 border-b flex-shrink-0"
+          style={{ borderColor: `${accentColor}22` }}
+        >
+          <div
+            className="absolute top-0 left-0 right-0 h-[2px] rounded-t-3xl"
+            style={{ background: `linear-gradient(90deg, transparent, ${accentColor}, transparent)` }}
+          />
+          <div className="flex items-center gap-5">
+            <div
+              className="flex items-center justify-center w-16 h-16 rounded-2xl text-3xl font-black flex-shrink-0"
+              style={{

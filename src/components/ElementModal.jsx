@@ -216,3 +216,17 @@ export default function ElementModal({ element, onClose }) {
                 <InfoChip label="Discovered By"  value={element.discoveredBy} />
               </div>
             </div>
+             <div>
+              <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest mb-3">
+                <BarChart3 size={13} />
+                <span>Relative Properties</span>
+              </div>
+              <div className="bg-slate-800/40 rounded-2xl p-5 space-y-5 border border-slate-700/30">
+                <PropertyBar label="Atomic Mass"       value={element.atomicMass}        unit="u"       min={PROPERTY_RANGES.atomicMass.min}        max={PROPERTY_RANGES.atomicMass.max}        color={accentColor} />
+                <PropertyBar label="Atomic Radius"     value={element.atomicRadius}      unit="pm"      min={PROPERTY_RANGES.atomicRadius.min}      max={PROPERTY_RANGES.atomicRadius.max}      color={accentColor} />
+                <PropertyBar label="Electronegativity" value={element.electronegativity} unit="Pauling" min={PROPERTY_RANGES.electronegativity.min} max={PROPERTY_RANGES.electronegativity.max} color={accentColor} />
+                <PropertyBar label="Melting Point"     value={element.meltingPoint}      unit="°C"      min={PROPERTY_RANGES.meltingPoint.min}      max={PROPERTY_RANGES.meltingPoint.max}      color={accentColor} />
+                <PropertyBar label="Boiling Point"     value={element.boilingPoint}      unit="°C"      min={PROPERTY_RANGES.boilingPoint.min}      max={PROPERTY_RANGES.boilingPoint.max}      color={accentColor} />
+                <PropertyBar label="Density"           value={element.density}           unit="g/cm³"   min={PROPERTY_RANGES.density.min}           max={PROPERTY_RANGES.density.max}           color={accentColor} />
+              </div>
+            </div>

@@ -165,3 +165,11 @@ export default function ElementModal({ element, onClose }) {
                   </div>
                 }
               >
+                <AtomViewer element={element} />
+              </Suspense>
+            </div>
+
+            <div
+              className="relative z-10 flex-shrink-0 px-6 py-5 space-y-3"
+              style={{ borderTop: `1px solid ${accentColor}15`, background: 'rgba(2,6,23,0.5)' }}
+            >

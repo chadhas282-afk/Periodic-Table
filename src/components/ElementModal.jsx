@@ -193,4 +193,11 @@ export default function ElementModal({ element, onClose }) {
                     key={i}
                     className="flex flex-col items-center px-3 py-2 rounded-lg text-xs"
                     style={{ background: `${accentColor}15`, border: `1px solid ${accentColor}28` }}
-                  ></div>
+                  >
+                    <span className="text-slate-500 text-[9px] uppercase tracking-wider">Shell {i + 1}</span>
+                    <span className="font-bold text-sm mt-0.5" style={{ color: accentColor }}>{n}e⁻</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>

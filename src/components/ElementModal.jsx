@@ -273,3 +273,12 @@ export default function ElementModal({ element, onClose }) {
                   <div className="text-xs text-slate-500 uppercase tracking-widest font-semibold mb-0.5">Electronegativity</div>
                   <div className="text-slate-100 font-bold text-2xl">
                     {element.electronegativity}
+                    <span className="text-sm text-slate-400 font-normal ml-1.5">Pauling scale</span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            <div className="bg-slate-800/40 rounded-2xl p-5 border border-slate-700/30">
+              <div className="text-xs text-slate-400 uppercase tracking-widest font-semibold mb-3">
+                Common Uses & Significance

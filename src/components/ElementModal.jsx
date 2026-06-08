@@ -5,19 +5,19 @@ import { CATEGORIES } from '../data/elements';
 const AtomViewer = lazy(() => import('./AtomViewer'));
 
 const PROPERTY_RANGES = {
-  atomicMass: { min: 1.008, max: 294, label: 'Atomic Mass', unit: 'u' },
-  atomicRadius: { min: 25, max: 348, label: 'Atomic Radius', unit: 'pm' },
-  electronegativity: { min: 0.79, max: 3.98, label: 'Electronegativity', unit: 'Pauling' },
-  meltingPoint: { min: -272.20, max: 3422, label: 'Melting Point', unit: '°C' },
-  boilingPoint: { min: -268.93, max: 5596, label: 'Boiling Point', unit: '°C' },
-  density: { min: 0.00008988, max: 40.7, label: 'Density', unit: 'g/cm³' },
+  atomicMass:        { min: 1.008,       max: 294,   label: 'Atomic Mass',       unit: 'u' },
+  atomicRadius:      { min: 25,          max: 348,   label: 'Atomic Radius',     unit: 'pm' },
+  electronegativity: { min: 0.79,        max: 3.98,  label: 'Electronegativity', unit: 'Pauling' },
+  meltingPoint:      { min: -272.20,     max: 3422,  label: 'Melting Point',     unit: '°C' },
+  boilingPoint:      { min: -268.93,     max: 5596,  label: 'Boiling Point',     unit: '°C' },
+  density:           { min: 0.00008988,  max: 40.7,  label: 'Density',           unit: 'g/cm³' },
 };
 
 function PropertyBar({ label, value, unit, min, max, color }) {
   const pct = value == null ? 0 : Math.max(0, Math.min(100, ((value - min) / (max - min)) * 100));
   const display = value == null ? 'N/A'
     : typeof value === 'number' && !Number.isInteger(value) ? value.toFixed(3)
-      : value;
+    : value;
 
   return (
     <div className="space-y-1.5">
@@ -122,7 +122,7 @@ export default function ElementModal({ element, onClose }) {
             </div>
           </div>
           <button
-          onClick={onClose}
+            onClick={onClose}
             className="flex items-center justify-center w-11 h-11 rounded-xl transition-all duration-200 hover:scale-110 flex-shrink-0"
             style={{ background: 'rgba(100,116,139,0.2)', border: '1px solid rgba(100,116,139,0.3)', color: '#94a3b8' }}
             onMouseEnter={(e) => {
@@ -201,6 +201,7 @@ export default function ElementModal({ element, onClose }) {
               </div>
             </div>
           </div>
+
           <div className="flex-1 overflow-y-auto p-7 space-y-6 custom-scrollbar">
             <div>
               <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest mb-3">
@@ -216,7 +217,8 @@ export default function ElementModal({ element, onClose }) {
                 <InfoChip label="Discovered By"  value={element.discoveredBy} />
               </div>
             </div>
-             <div>
+
+            <div>
               <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest mb-3">
                 <BarChart3 size={13} />
                 <span>Relative Properties</span>
@@ -264,7 +266,7 @@ export default function ElementModal({ element, onClose }) {
                 style={{ background: `${accentColor}08`, borderColor: `${accentColor}25` }}
               >
                 <div
-                className="flex items-center justify-center w-11 h-11 rounded-xl flex-shrink-0"
+                  className="flex items-center justify-center w-11 h-11 rounded-xl flex-shrink-0"
                   style={{ background: `${accentColor}22` }}
                 >
                   <Zap size={20} style={{ color: accentColor }} />
@@ -282,3 +284,12 @@ export default function ElementModal({ element, onClose }) {
             <div className="bg-slate-800/40 rounded-2xl p-5 border border-slate-700/30">
               <div className="text-xs text-slate-400 uppercase tracking-widest font-semibold mb-3">
                 Common Uses & Significance
+              </div>
+              <p className="text-slate-300 text-sm leading-relaxed">{element.uses}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

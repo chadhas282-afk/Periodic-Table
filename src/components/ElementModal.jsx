@@ -106,3 +106,12 @@ export default function ElementModal({ element, onClose }) {
             >
               {element.symbol}
             </div>
+                        <div>
+              <div className="text-3xl font-bold text-white leading-tight">{element.name}</div>
+              <div className="flex items-center gap-2.5 mt-1">
+                <span
+                  className="px-3 py-1 rounded-full text-xs font-semibold"
+                  style={{ background: `${accentColor}22`, color: accentColor, border: `1px solid ${accentColor}44` }}
+                >
+                  {category?.label}
+                </span>

@@ -156,3 +156,12 @@ export default function ElementModal({ element, onClose }) {
             <div className="flex-1 relative z-10 min-h-0">
               <Suspense
                 fallback={
+                  <div className="w-full h-full flex flex-col items-center justify-center gap-4">
+                    <div
+                      className="w-12 h-12 rounded-full border-2 animate-spin"
+                      style={{ borderColor: `${accentColor}44`, borderTopColor: accentColor }}
+                    />
+                    <span className="text-slate-500 text-sm">Loading 3D model…</span>
+                  </div>
+                }
+              >

@@ -237,3 +237,10 @@ export default function ElementModal({ element, onClose }) {
                   <Thermometer size={12} />
                   <span>Melting Point</span>
                 </div>
+                <div className="text-slate-100 font-bold text-2xl">
+                  {element.meltingPoint != null ? `${element.meltingPoint}°C` : 'N/A'}
+                </div>
+                <div className="text-slate-500 text-xs font-mono">
+                  {element.meltingPoint != null ? `${(element.meltingPoint + 273.15).toFixed(2)} K` : ''}
+                </div>
+              </div>

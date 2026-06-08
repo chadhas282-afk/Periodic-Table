@@ -173,3 +173,15 @@ export default function ElementModal({ element, onClose }) {
               className="relative z-10 flex-shrink-0 px-6 py-5 space-y-3"
               style={{ borderTop: `1px solid ${accentColor}15`, background: 'rgba(2,6,23,0.5)' }}
             >
+              <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest">
+                <Atom size={13} style={{ color: accentColor }} />
+                <span>Electron Configuration</span>
+              </div>
+              <div
+                className="px-4 py-3 rounded-xl font-mono text-sm leading-relaxed"
+                style={{
+                  background: `${accentColor}10`,
+                  border: `1px solid ${accentColor}25`,
+                  color: accentColor,
+                }}
+              >

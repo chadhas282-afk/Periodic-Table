@@ -122,3 +122,11 @@ export default function ElementModal({ element, onClose }) {
             </div>
           </div>
           <button
+          onClick={onClose}
+            className="flex items-center justify-center w-11 h-11 rounded-xl transition-all duration-200 hover:scale-110 flex-shrink-0"
+            style={{ background: 'rgba(100,116,139,0.2)', border: '1px solid rgba(100,116,139,0.3)', color: '#94a3b8' }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = 'rgba(239,68,68,0.2)';
+              e.currentTarget.style.borderColor = 'rgba(239,68,68,0.4)';
+              e.currentTarget.style.color = '#ef4444';
+            }}

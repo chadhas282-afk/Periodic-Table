@@ -130,3 +130,12 @@ export default function ElementModal({ element, onClose }) {
               e.currentTarget.style.borderColor = 'rgba(239,68,68,0.4)';
               e.currentTarget.style.color = '#ef4444';
             }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = 'rgba(100,116,139,0.2)';
+              e.currentTarget.style.borderColor = 'rgba(100,116,139,0.3)';
+              e.currentTarget.style.color = '#94a3b8';
+            }}
+          >
+            <X size={20} />
+          </button>
+        </div>

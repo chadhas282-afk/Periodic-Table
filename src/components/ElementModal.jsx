@@ -185,3 +185,12 @@ export default function ElementModal({ element, onClose }) {
                   color: accentColor,
                 }}
               >
+                {element.electronConfig}
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {element.electronsPerShell.map((n, i) => (
+                  <div
+                    key={i}
+                    className="flex flex-col items-center px-3 py-2 rounded-lg text-xs"
+                    style={{ background: `${accentColor}15`, border: `1px solid ${accentColor}28` }}
+                  ></div>

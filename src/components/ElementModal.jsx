@@ -252,3 +252,15 @@ export default function ElementModal({ element, onClose }) {
                 <div className="text-slate-100 font-bold text-2xl">
                   {element.boilingPoint != null ? `${element.boilingPoint}°C` : 'N/A'}
                 </div>
+                <div className="text-slate-500 text-xs font-mono">
+                  {element.boilingPoint != null ? `${(element.boilingPoint + 273.15).toFixed(2)} K` : ''}
+                </div>
+              </div>
+            </div>
+
+            {element.electronegativity != null && (
+              <div
+                className="flex items-center gap-4 p-5 rounded-2xl border"
+                style={{ background: `${accentColor}08`, borderColor: `${accentColor}25` }}
+              >
+                <div

@@ -230,3 +230,10 @@ export default function ElementModal({ element, onClose }) {
                 <PropertyBar label="Density"           value={element.density}           unit="g/cm³"   min={PROPERTY_RANGES.density.min}           max={PROPERTY_RANGES.density.max}           color={accentColor} />
               </div>
             </div>
+
+            <div className="grid grid-cols-2 gap-4">
+              <div className="bg-slate-800/40 rounded-2xl p-5 border border-slate-700/30 space-y-2">
+                <div className="flex items-center gap-1.5 text-blue-400 text-xs font-semibold uppercase tracking-widest">
+                  <Thermometer size={12} />
+                  <span>Melting Point</span>
+                </div>

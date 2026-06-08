@@ -139,3 +139,13 @@ export default function ElementModal({ element, onClose }) {
             <X size={20} />
           </button>
         </div>
+
+        <div className="flex flex-1 min-h-0 overflow-hidden">
+          <div
+            className="relative flex flex-col"
+            style={{
+              width: '55%',
+              borderRight: `1px solid ${accentColor}18`,
+              flexShrink: 0,
+            }}
+          >

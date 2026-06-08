@@ -5,25 +5,25 @@ import { CATEGORIES } from '../data/elements';
 const AtomViewer = lazy(() => import('./AtomViewer'));
 
 const PROPERTY_RANGES = {
-      atomicMass:        { min: 1.008,       max: 294,   label: 'Atomic Mass',       unit: 'u' },
-  atomicRadius:      { min: 25,          max: 348,   label: 'Atomic Radius',     unit: 'pm' },
-  electronegativity: { min: 0.79,        max: 3.98,  label: 'Electronegativity', unit: 'Pauling' },
-  meltingPoint:      { min: -272.20,     max: 3422,  label: 'Melting Point',     unit: '°C' },
-  boilingPoint:      { min: -268.93,     max: 5596,  label: 'Boiling Point',     unit: '°C' },
-  density:           { min: 0.00008988,  max: 40.7,  label: 'Density',           unit: 'g/cm³' },
+  atomicMass: { min: 1.008, max: 294, label: 'Atomic Mass', unit: 'u' },
+  atomicRadius: { min: 25, max: 348, label: 'Atomic Radius', unit: 'pm' },
+  electronegativity: { min: 0.79, max: 3.98, label: 'Electronegativity', unit: 'Pauling' },
+  meltingPoint: { min: -272.20, max: 3422, label: 'Melting Point', unit: '°C' },
+  boilingPoint: { min: -268.93, max: 5596, label: 'Boiling Point', unit: '°C' },
+  density: { min: 0.00008988, max: 40.7, label: 'Density', unit: 'g/cm³' },
 };
 
 function PropertyBar({ label, value, unit, min, max, color }) {
   const pct = value == null ? 0 : Math.max(0, Math.min(100, ((value - min) / (max - min)) * 100));
   const display = value == null ? 'N/A'
     : typeof value === 'number' && !Number.isInteger(value) ? value.toFixed(3)
-    : value;
+      : value;
 
   return (
     <div className="space-y-1.5">
       <div className="flex justify-between items-center">
         <span className="text-xs text-slate-400 font-medium">{label}</span>
-         <span className="text-xs text-slate-200 font-mono">
+        <span className="text-xs text-slate-200 font-mono">
           {display} <span className="text-slate-500">{unit}</span>
         </span>
       </div>
@@ -76,7 +76,7 @@ export default function ElementModal({ element, onClose }) {
       style={{ backdropFilter: 'blur(20px)', background: 'rgba(2,6,23,0.88)' }}
       onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
     >
-        <div
+      <div
         className="relative w-full max-w-7xl rounded-3xl overflow-hidden flex flex-col"
         style={{
           height: 'clamp(600px, 88vh, 900px)',
@@ -85,7 +85,7 @@ export default function ElementModal({ element, onClose }) {
           boxShadow: `0 0 100px ${accentColor}22, 0 30px 80px rgba(0,0,0,0.8), inset 0 1px 0 rgba(255,255,255,0.06)`,
         }}
       >
-         <div
+        <div
           className="relative flex items-center justify-between px-8 py-5 border-b flex-shrink-0"
           style={{ borderColor: `${accentColor}22` }}
         >
@@ -106,7 +106,7 @@ export default function ElementModal({ element, onClose }) {
             >
               {element.symbol}
             </div>
-                        <div>
+            <div>
               <div className="text-3xl font-bold text-white leading-tight">{element.name}</div>
               <div className="flex items-center gap-2.5 mt-1">
                 <span
@@ -115,3 +115,10 @@ export default function ElementModal({ element, onClose }) {
                 >
                   {category?.label}
                 </span>
+                <span className="text-slate-500 text-sm">Z = {element.atomicNumber}</span>
+                <span className="text-slate-600 text-sm">•</span>
+                <span className="text-slate-500 text-sm font-mono">Period {element.period}{element.group ? ` · Group ${element.group}` : ''}</span>
+              </div>
+            </div>
+          </div>
+          <button

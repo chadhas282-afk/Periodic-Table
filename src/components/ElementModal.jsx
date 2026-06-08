@@ -149,3 +149,10 @@ export default function ElementModal({ element, onClose }) {
               flexShrink: 0,
             }}
           >
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{ background: `radial-gradient(ellipse at 50% 40%, ${accentColor}18 0%, transparent 65%)` }}
+            />
+            <div className="flex-1 relative z-10 min-h-0">
+              <Suspense
+                fallback={

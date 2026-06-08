@@ -264,3 +264,12 @@ export default function ElementModal({ element, onClose }) {
                 style={{ background: `${accentColor}08`, borderColor: `${accentColor}25` }}
               >
                 <div
+                className="flex items-center justify-center w-11 h-11 rounded-xl flex-shrink-0"
+                  style={{ background: `${accentColor}22` }}
+                >
+                  <Zap size={20} style={{ color: accentColor }} />
+                </div>
+                <div>
+                  <div className="text-xs text-slate-500 uppercase tracking-widest font-semibold mb-0.5">Electronegativity</div>
+                  <div className="text-slate-100 font-bold text-2xl">
+                    {element.electronegativity}

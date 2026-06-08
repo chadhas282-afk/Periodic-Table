@@ -201,3 +201,18 @@ export default function ElementModal({ element, onClose }) {
               </div>
             </div>
           </div>
+          <div className="flex-1 overflow-y-auto p-7 space-y-6 custom-scrollbar">
+            <div>
+              <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest mb-3">
+                <FlaskConical size={13} />
+                <span>Key Facts</span>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <InfoChip label="Atomic Number"  value={element.atomicNumber} />
+                <InfoChip label="Atomic Mass"    value={`${element.atomicMass} u`} />
+                <InfoChip label="Phase"          value={element.phase} />
+                <InfoChip label="Density"        value={element.density != null ? `${element.density} g/cm³` : null} />
+                <InfoChip label="Discovered"     value={element.discovered > 0 ? element.discovered : `~${Math.abs(element.discovered)} BC`} />
+                <InfoChip label="Discovered By"  value={element.discoveredBy} />
+              </div>
+            </div>

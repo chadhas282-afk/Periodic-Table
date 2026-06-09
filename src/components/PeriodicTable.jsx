@@ -61,3 +61,11 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
             : `linear-gradient(90deg, transparent, ${accentColor}55, transparent)`
         }}
       />
+
+      <div className="relative z-10 flex flex-col h-full p-1.5">
+        <div className="text-[10px] font-bold leading-normal pl-0.5" style={{ color: isHighlighted ? '#fff' : `${accentColor}aa` }}>
+          {element.atomicNumber}
+        </div>
+        
+        <div className="flex-1 flex flex-col items-center justify-center -mt-2">
+          <div

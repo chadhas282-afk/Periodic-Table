@@ -136,3 +136,14 @@ function CategoryLegend({ onCategoryFilter, activeCategoryFilter }) {
 }
 const GRID_COLS = 19; 
 const GRID_ROWS = 12; 
+
+function buildGrid() {
+  const grid = {};
+  elements.forEach((el) => {
+    const pos = getElementPosition(el);
+    if (pos.col && pos.row) {
+      grid[`${pos.row}-${pos.col}`] = el;
+    }
+  });
+  return grid;
+}

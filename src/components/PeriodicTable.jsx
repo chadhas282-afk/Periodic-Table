@@ -147,3 +147,12 @@ function buildGrid() {
   });
   return grid;
 }
+
+export default function PeriodicTable({ searchQuery, onElementClick, selectedElement }) {
+  const [categoryFilter, setCategoryFilter] = useState(null);
+
+  const grid = useMemo(() => buildGrid(), []);
+
+  const filteredElements = useMemo(() => {
+    const q = searchQuery.toLowerCase().trim();
+    const result = new Set();

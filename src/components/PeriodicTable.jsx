@@ -182,3 +182,15 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
           style={{
             display: 'grid',
             gridTemplateColumns: `32px repeat(18, minmax(60px, 85px))`,
+            gridTemplateRows: `28px repeat(7, 72px) 18px 72px 72px 18px`,
+            justifyContent: 'center',
+            gap: '4px',
+            minWidth: '1050px',
+            maxWidth: '1600px',
+            width: '100%',
+          }}
+        >
+          <div /> 
+          {Array.from({ length: 18 }, (_, i) => (
+            <GroupHeader key={i} group={i + 1} />
+          ))}

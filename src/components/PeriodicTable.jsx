@@ -168,3 +168,11 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
       const matchesCategory = !categoryFilter || el.category === categoryFilter;
       if (matchesSearch && matchesCategory) result.add(el.atomicNumber);
     });
+
+    return result;
+  }, [searchQuery, categoryFilter]);
+
+  const hasFilter = searchQuery.trim() || categoryFilter;
+
+  return (
+    <div className="w-full px-2">

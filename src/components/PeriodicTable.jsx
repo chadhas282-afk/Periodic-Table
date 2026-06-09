@@ -114,4 +114,13 @@ function CategoryLegend({ onCategoryFilter, activeCategoryFilter }) {
           onClick={() => onCategoryFilter(activeCategoryFilter === key ? null : key)}
           className="group flex items-center gap-2 px-3.5 py-2 rounded-full text-[11px] font-bold tracking-wide uppercase transition-all duration-300 hover:scale-105"
           style={{
-            background: 
+            background: activeCategoryFilter === key ? `${cat.color}33` : 'rgba(255,255,255,0.03)',
+            border: `1px solid ${activeCategoryFilter === key ? cat.color : 'rgba(255,255,255,0.1)'}`,
+            color: activeCategoryFilter === key ? '#fff' : '#94a3b8',
+            boxShadow: activeCategoryFilter === key ? `0 0 15px ${cat.color}44, inset 0 0 10px ${cat.color}22` : '0 2px 4px rgba(0,0,0,0.2)',
+            backdropFilter: 'blur(8px)',
+          }}
+        >
+          <span
+            className="w-2.5 h-2.5 rounded-full shadow-sm transition-all duration-300 group-hover:scale-125"
+            style={{

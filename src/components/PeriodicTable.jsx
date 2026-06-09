@@ -176,3 +176,9 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
 
   return (
     <div className="w-full px-2">
+        <CategoryLegend onCategoryFilter={setCategoryFilter} activeCategoryFilter={categoryFilter} />
+      <div className="mt-6 overflow-x-auto pb-4 flex justify-center">
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: `32px repeat(18, minmax(60px, 85px))`,

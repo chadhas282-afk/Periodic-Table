@@ -107,3 +107,11 @@ function PeriodLabel({ period }) {
 }
 function CategoryLegend({ onCategoryFilter, activeCategoryFilter }) {
   return (
+    <div className="flex flex-wrap gap-2 justify-center mt-4">
+      {Object.entries(CATEGORIES).map(([key, cat]) => (
+        <button
+          key={key}
+          onClick={() => onCategoryFilter(activeCategoryFilter === key ? null : key)}
+          className="group flex items-center gap-2 px-3.5 py-2 rounded-full text-[11px] font-bold tracking-wide uppercase transition-all duration-300 hover:scale-105"
+          style={{
+            background: 

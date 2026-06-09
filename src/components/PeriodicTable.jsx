@@ -87,3 +87,14 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
             {element.atomicMass.toFixed?.(element.atomicMass < 10 ? 3 : element.atomicMass < 100 ? 2 : 1) ?? element.atomicMass}
           </div>
         </div>
+        </div>
+    </div>
+  );
+}
+function GroupHeader({ group }) {
+  return (
+    <div className="flex items-center justify-center text-[10px] text-slate-600 font-semibold h-6">
+      {group}
+    </div>
+  );
+}

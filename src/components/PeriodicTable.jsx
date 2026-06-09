@@ -98,3 +98,12 @@ function GroupHeader({ group }) {
     </div>
   );
 }
+function PeriodLabel({ period }) {
+  return (
+    <div className="flex items-center justify-end pr-2 text-[10px] text-slate-600 font-semibold h-full">
+      {period}
+    </div>
+  );
+}
+function CategoryLegend({ onCategoryFilter, activeCategoryFilter }) {
+  return (

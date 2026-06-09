@@ -78,3 +78,12 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
             {element.symbol}
           </div>
         </div>
+                
+        <div className="flex flex-col items-center w-full mt-auto mb-0.5">
+          <div className="text-[8px] text-slate-200 font-semibold leading-tight truncate w-full text-center">
+            {element.name}
+          </div>
+          <div className="text-[7px] text-slate-400 leading-none font-mono opacity-80 group-hover:opacity-100 transition-opacity mt-px">
+            {element.atomicMass.toFixed?.(element.atomicMass < 10 ? 3 : element.atomicMass < 100 ? 2 : 1) ?? element.atomicMass}
+          </div>
+        </div>

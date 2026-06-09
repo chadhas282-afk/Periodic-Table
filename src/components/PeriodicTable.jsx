@@ -156,3 +156,15 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
   const filteredElements = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
     const result = new Set();
+
+    elements.forEach((el) => {
+      const matchesSearch = !q || (
+        el.name.toLowerCase().includes(q) ||
+        el.symbol.toLowerCase().includes(q) ||
+        String(el.atomicNumber).includes(q) ||
+        el.category.toLowerCase().includes(q) ||
+        (el.period && String(el.period).includes(q))
+      );
+      const matchesCategory = !categoryFilter || el.category === categoryFilter;
+      if (matchesSearch && matchesCategory) result.add(el.atomicNumber);
+    });

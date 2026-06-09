@@ -124,3 +124,15 @@ function CategoryLegend({ onCategoryFilter, activeCategoryFilter }) {
           <span
             className="w-2.5 h-2.5 rounded-full shadow-sm transition-all duration-300 group-hover:scale-125"
             style={{
+                background: cat.color,
+              boxShadow: `0 0 8px ${cat.color}`,
+            }}
+          />
+          {cat.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+const GRID_COLS = 19; 
+const GRID_ROWS = 12; 

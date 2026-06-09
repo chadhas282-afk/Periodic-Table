@@ -35,3 +35,12 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
           e.currentTarget.style.zIndex = '30';
         }
       }}
+      onMouseLeave={(e) => {
+        if (!isDimmed) {
+          e.currentTarget.style.background = isHighlighted
+            ? `linear-gradient(135deg, ${accentColor}44, ${accentColor}15)`
+            : `linear-gradient(145deg, rgba(30,41,59,0.9) 0%, rgba(2,6,23,0.95) 100%)`;
+          e.currentTarget.style.borderColor = isHighlighted ? accentColor : 'rgba(255,255,255,0.08)';
+          e.currentTarget.style.boxShadow = isHighlighted
+            ? `0 0 20px ${accentColor}66, inset 0 1px 0 rgba(255,255,255,0.2)`
+            : `0 2px 4px rgba(0,0,0,0.5)`;

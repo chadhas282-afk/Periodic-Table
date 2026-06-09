@@ -44,3 +44,12 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
           e.currentTarget.style.boxShadow = isHighlighted
             ? `0 0 20px ${accentColor}66, inset 0 1px 0 rgba(255,255,255,0.2)`
             : `0 2px 4px rgba(0,0,0,0.5)`;
+            e.currentTarget.style.transform = isHighlighted ? 'scale(1.1)' : 'scale(1)';
+          e.currentTarget.style.zIndex = isHighlighted ? '20' : '0';
+        }
+      }}
+    >
+      <div
+        className="absolute -top-4 -left-4 w-12 h-12 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl pointer-events-none"
+        style={{ background: accentColor }}
+      />

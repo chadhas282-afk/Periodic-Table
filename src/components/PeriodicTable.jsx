@@ -53,3 +53,11 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
         className="absolute -top-4 -left-4 w-12 h-12 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl pointer-events-none"
         style={{ background: accentColor }}
       />
+      <div
+        className="absolute top-0 left-0 right-0 h-[2px] transition-all duration-300"
+        style={{
+          background: isHighlighted
+            ? `linear-gradient(90deg, transparent, ${accentColor}, transparent)`
+            : `linear-gradient(90deg, transparent, ${accentColor}55, transparent)`
+        }}
+      />

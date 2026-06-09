@@ -69,3 +69,12 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
         
         <div className="flex-1 flex flex-col items-center justify-center -mt-2">
           <div
+          className="text-[22px] font-black leading-none tracking-tight transition-all duration-300"
+            style={{
+              color: 'white',
+              textShadow: isHighlighted ? `0 0 15px ${accentColor}` : `0 2px 4px rgba(0,0,0,0.5)`,
+            }}
+          >
+            {element.symbol}
+          </div>
+        </div>

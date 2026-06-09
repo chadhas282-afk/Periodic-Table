@@ -27,3 +27,11 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
       }}
       onClick={() => onClick(element)}
       onMouseEnter={(e) => {
+        if (!isDimmed) {
+          e.currentTarget.style.background = `linear-gradient(135deg, ${accentColor}40, ${accentColor}10)`;
+          e.currentTarget.style.borderColor = accentColor;
+          e.currentTarget.style.boxShadow = `0 10px 30px -10px ${accentColor}, 0 0 15px ${accentColor}55, inset 0 1px 0 rgba(255,255,255,0.3)`;
+          e.currentTarget.style.transform = 'scale(1.15)';
+          e.currentTarget.style.zIndex = '30';
+        }
+      }}

@@ -20,7 +20,7 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
           : `linear-gradient(145deg, rgba(30,41,59,0.9) 0%, rgba(2,6,23,0.95) 100%)`,
         border: `1px solid ${isHighlighted ? accentColor : 'rgba(255,255,255,0.08)'}`,
         boxShadow: isHighlighted
-        ? `0 0 20px ${accentColor}66, inset 0 1px 0 rgba(255,255,255,0.2)`
+          ? `0 0 20px ${accentColor}66, inset 0 1px 0 rgba(255,255,255,0.2)`
           : `0 2px 4px rgba(0,0,0,0.5)`,
         animation: 'staggerFadeIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both',
         animationDelay: `${element.atomicNumber * 10}ms`,
@@ -44,7 +44,7 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
           e.currentTarget.style.boxShadow = isHighlighted
             ? `0 0 20px ${accentColor}66, inset 0 1px 0 rgba(255,255,255,0.2)`
             : `0 2px 4px rgba(0,0,0,0.5)`;
-            e.currentTarget.style.transform = isHighlighted ? 'scale(1.1)' : 'scale(1)';
+          e.currentTarget.style.transform = isHighlighted ? 'scale(1.1)' : 'scale(1)';
           e.currentTarget.style.zIndex = isHighlighted ? '20' : '0';
         }
       }}
@@ -69,7 +69,7 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
         
         <div className="flex-1 flex flex-col items-center justify-center -mt-2">
           <div
-          className="text-[22px] font-black leading-none tracking-tight transition-all duration-300"
+            className="text-[22px] font-black leading-none tracking-tight transition-all duration-300"
             style={{
               color: 'white',
               textShadow: isHighlighted ? `0 0 15px ${accentColor}` : `0 2px 4px rgba(0,0,0,0.5)`,
@@ -78,7 +78,7 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
             {element.symbol}
           </div>
         </div>
-                
+        
         <div className="flex flex-col items-center w-full mt-auto mb-0.5">
           <div className="text-[8px] text-slate-200 font-semibold leading-tight truncate w-full text-center">
             {element.name}
@@ -87,7 +87,7 @@ function ElementCard({ element, isHighlighted, isDimmed, onClick }) {
             {element.atomicMass.toFixed?.(element.atomicMass < 10 ? 3 : element.atomicMass < 100 ? 2 : 1) ?? element.atomicMass}
           </div>
         </div>
-        </div>
+      </div>
     </div>
   );
 }
@@ -124,7 +124,7 @@ function CategoryLegend({ onCategoryFilter, activeCategoryFilter }) {
           <span
             className="w-2.5 h-2.5 rounded-full shadow-sm transition-all duration-300 group-hover:scale-125"
             style={{
-                background: cat.color,
+              background: cat.color,
               boxShadow: `0 0 8px ${cat.color}`,
             }}
           />
@@ -176,7 +176,7 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
 
   return (
     <div className="w-full px-2">
-        <CategoryLegend onCategoryFilter={setCategoryFilter} activeCategoryFilter={categoryFilter} />
+      <CategoryLegend onCategoryFilter={setCategoryFilter} activeCategoryFilter={categoryFilter} />
       <div className="mt-6 overflow-x-auto pb-4 flex justify-center">
         <div
           style={{
@@ -210,7 +210,7 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                   const isDimmed = hasFilter && !filteredElements.has(el.atomicNumber);
                   return (
                     <ElementCard
-                     key={key}
+                      key={key}
                       element={el}
                       isHighlighted={isHighlighted}
                       isDimmed={isDimmed}
@@ -236,7 +236,7 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                         borderColor: isLanthanide ? 'rgba(6,182,212,0.2)' : 'rgba(168,85,247,0.2)',
                         borderStyle: 'dashed',
                       }}
-                      >
+                    >
                       <div className="text-[8px] font-bold" style={{ color: isLanthanide ? '#06b6d4' : '#a855f7' }}>
                         {isLanthanide ? '57-71' : '89-103'}
                       </div>
@@ -249,7 +249,7 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
             ];
           })}
 
-<div style={{ gridColumn: '1 / -1', height: '16px' }} />
+          <div style={{ gridColumn: '1 / -1', height: '16px' }} />
           <div className="flex items-center justify-center text-[8px] text-cyan-600 font-bold writing-mode-vertical" style={{ fontSize: '7px' }}>Ln</div>
           {Array.from({ length: 18 }, (_, colIdx) => {
             const col = colIdx + 1;
@@ -291,3 +291,11 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                 />
               );
             }
+            return col >= 4 ? <EmptyCell key={key} /> : <div key={key} style={{ visibility: 'hidden' }} />;
+          })}
+          <div style={{ gridColumn: '1 / -1', height: '16px' }} />
+        </div>
+      </div>
+    </div>
+  );
+}

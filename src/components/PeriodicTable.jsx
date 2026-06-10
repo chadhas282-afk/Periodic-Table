@@ -243,3 +243,8 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                     </div>
                   );
                 }
+
+                return <EmptyCell key={key} />;
+              }),
+            ];
+          })}

@@ -285,3 +285,9 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                 <ElementCard
                   key={key}
                   element={el}
+                  isHighlighted={isHighlighted}
+                  isDimmed={isDimmed}
+                  onClick={onElementClick}
+                />
+              );
+            }

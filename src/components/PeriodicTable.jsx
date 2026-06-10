@@ -222,3 +222,11 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                 if (period <= 2 && col >= 3 && col <= 17) {
                   return <div key={key} aria-hidden="true" />;
                 }
+
+                if ((period === 6 || period === 7) && col === 3) {
+                  const isLanthanide = period === 6;
+                  return (
+                    <div
+                      key={key}
+                      className="rounded-xl border text-center flex flex-col items-center justify-center cursor-pointer"
+                      style={{

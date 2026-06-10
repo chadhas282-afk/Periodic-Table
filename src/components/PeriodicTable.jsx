@@ -248,3 +248,10 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
               }),
             ];
           })}
+
+<div style={{ gridColumn: '1 / -1', height: '16px' }} />
+          <div className="flex items-center justify-center text-[8px] text-cyan-600 font-bold writing-mode-vertical" style={{ fontSize: '7px' }}>Ln</div>
+          {Array.from({ length: 18 }, (_, colIdx) => {
+            const col = colIdx + 1;
+            const key = `9-${col}`;
+            const el = grid[key];

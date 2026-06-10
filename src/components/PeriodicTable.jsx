@@ -194,3 +194,11 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
           {Array.from({ length: 18 }, (_, i) => (
             <GroupHeader key={i} group={i + 1} />
           ))}
+
+          {Array.from({ length: 7 }, (_, periodIdx) => {
+            const period = periodIdx + 1;
+            return [
+              <PeriodLabel key={`period-${period}`} period={period} />,
+              ...Array.from({ length: 18 }, (_, colIdx) => {
+                const col = colIdx + 1;
+                const key = `${period}-${col}`;

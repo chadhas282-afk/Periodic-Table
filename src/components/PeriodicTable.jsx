@@ -236,3 +236,10 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                         borderColor: isLanthanide ? 'rgba(6,182,212,0.2)' : 'rgba(168,85,247,0.2)',
                         borderStyle: 'dashed',
                       }}
+                      >
+                      <div className="text-[8px] font-bold" style={{ color: isLanthanide ? '#06b6d4' : '#a855f7' }}>
+                        {isLanthanide ? '57-71' : '89-103'}
+                      </div>
+                    </div>
+                  );
+                }

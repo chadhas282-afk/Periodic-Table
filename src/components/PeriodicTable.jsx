@@ -271,3 +271,9 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
             }
             return col >= 4 ? <EmptyCell key={key} /> : <div key={key} style={{ visibility: 'hidden' }} />;
           })}
+
+          <div className="flex items-center justify-center text-[8px] text-purple-600 font-bold" style={{ fontSize: '7px' }}>Ac</div>
+          {Array.from({ length: 18 }, (_, colIdx) => {
+            const col = colIdx + 1;
+            const key = `10-${col}`;
+            const el = grid[key];

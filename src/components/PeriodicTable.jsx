@@ -263,3 +263,11 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                 <ElementCard
                   key={key}
                   element={el}
+                  isHighlighted={isHighlighted}
+                  isDimmed={isDimmed}
+                  onClick={onElementClick}
+                />
+              );
+            }
+            return col >= 4 ? <EmptyCell key={key} /> : <div key={key} style={{ visibility: 'hidden' }} />;
+          })}

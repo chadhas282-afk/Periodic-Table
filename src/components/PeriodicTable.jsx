@@ -210,3 +210,15 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                   const isDimmed = hasFilter && !filteredElements.has(el.atomicNumber);
                   return (
                     <ElementCard
+                     key={key}
+                      element={el}
+                      isHighlighted={isHighlighted}
+                      isDimmed={isDimmed}
+                      onClick={onElementClick}
+                    />
+                  );
+                }
+
+                if (period <= 2 && col >= 3 && col <= 17) {
+                  return <div key={key} aria-hidden="true" />;
+                }

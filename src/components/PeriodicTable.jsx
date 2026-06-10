@@ -202,3 +202,11 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
               ...Array.from({ length: 18 }, (_, colIdx) => {
                 const col = colIdx + 1;
                 const key = `${period}-${col}`;
+                const el = grid[key];
+
+
+                if (el) {
+                  const isHighlighted = hasFilter && filteredElements.has(el.atomicNumber);
+                  const isDimmed = hasFilter && !filteredElements.has(el.atomicNumber);
+                  return (
+                    <ElementCard

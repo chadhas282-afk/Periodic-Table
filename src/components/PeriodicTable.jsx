@@ -230,3 +230,9 @@ export default function PeriodicTable({ searchQuery, onElementClick, selectedEle
                       key={key}
                       className="rounded-xl border text-center flex flex-col items-center justify-center cursor-pointer"
                       style={{
+                        background: isLanthanide
+                          ? 'rgba(6,182,212,0.08)'
+                          : 'rgba(168,85,247,0.08)',
+                        borderColor: isLanthanide ? 'rgba(6,182,212,0.2)' : 'rgba(168,85,247,0.2)',
+                        borderStyle: 'dashed',
+                      }}

@@ -61,3 +61,17 @@ export const elements = [
     uses:'Nitrogen makes up 78% of Earth\'s atmosphere and is essential for amino acids and nucleic acids. Liquid nitrogen is widely used for cryogenic preservation and scientific cooling.',
     discovered:1772, discoveredBy:'Daniel Rutherford', phase:'Gas',
   },
+    {
+    atomicNumber:8, symbol:'O',  name:'Oxygen',    atomicMass:15.999,  group:16, period:2,
+    category:'nonmetal', electronegativity:3.44, atomicRadius:48, meltingPoint:-218.30, boilingPoint:-182.96,
+    electronConfig:'[He] 2s² 2p⁴', electronsPerShell:[2,6], molarMass:15.999, density:0.001429,
+    uses:'Oxygen is essential for cellular respiration and is the most abundant element in Earth\'s crust. Industrial oxygen drives steel production, medical applications, and water treatment.',
+    discovered:1774, discoveredBy:'Carl Wilhelm Scheele', phase:'Gas',
+  },
+  {
+    atomicNumber:9, symbol:'F',  name:'Fluorine',  atomicMass:18.998,  group:17, period:2,
+    category:'halogen', electronegativity:3.98, atomicRadius:42, meltingPoint:-219.67, boilingPoint:-188.11,
+    electronConfig:'[He] 2s² 2p⁵', electronsPerShell:[2,7], molarMass:18.998, density:0.001696,
+    uses:'Fluorine forms ultra-stable compounds like PTFE (Teflon) used in non-stick cookware and industrial linings. Fluoride compounds are added to toothpaste and water to prevent tooth decay.',
+    discovered:1886, discoveredBy:'Henri Moissan', phase:'Gas',
+  },

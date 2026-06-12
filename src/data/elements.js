@@ -229,3 +229,17 @@ export const elements = [
     uses:'Gallium arsenide is a critical semiconductor in high-speed electronics, solar cells, and LED lighting. Gallium\'s near-room-temperature melting point makes it fascinating for thermometers and experiments.',
     discovered:1875, discoveredBy:'Paul Emile Lecoq de Boisbaudran', phase:'Solid',
   },
+    {
+    atomicNumber:32, symbol:'Ge', name:'Germanium', atomicMass:72.630,  group:14, period:4,
+    category:'metalloid', electronegativity:2.01, atomicRadius:125, meltingPoint:938.25, boilingPoint:2833,
+    electronConfig:'[Ar] 3d¹⁰ 4s² 4p²', electronsPerShell:[2,8,18,4], molarMass:72.630, density:5.323,
+    uses:'Germanium is used as a semiconductor in infrared optics and night-vision equipment. It is also an important material in fiber optic cables, improving signal transmission efficiency.',
+    discovered:1886, discoveredBy:'Clemens Winkler', phase:'Solid',
+  },
+  {
+    atomicNumber:33, symbol:'As', name:'Arsenic',   atomicMass:74.922,  group:15, period:4,
+    category:'metalloid', electronegativity:2.18, atomicRadius:114, meltingPoint:817, boilingPoint:614,
+    electronConfig:'[Ar] 3d¹⁰ 4s² 4p³', electronsPerShell:[2,8,18,5], molarMass:74.922, density:5.727,
+    uses:'Arsenic is used as a dopant in semiconductors and in gallium arsenide for high-speed electronics. It was historically used in wood preservation but has largely been phased out due to toxicity.',
+    discovered:1250, discoveredBy:'Albertus Magnus', phase:'Solid',
+  },

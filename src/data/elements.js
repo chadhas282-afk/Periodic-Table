@@ -159,3 +159,17 @@ export const elements = [
     uses:'Scandium alloys are used in aerospace components and professional sports equipment like bicycle frames. Scandium iodide lamps produce a white light resembling sunlight.',
     discovered:1879, discoveredBy:'Lars Fredrik Nilson', phase:'Solid',
   },
+    {
+    atomicNumber:22, symbol:'Ti', name:'Titanium',  atomicMass:47.867,  group:4,  period:4,
+    category:'transition-metal', electronegativity:1.54, atomicRadius:176, meltingPoint:1668, boilingPoint:3287,
+    electronConfig:'[Ar] 3d² 4s²', electronsPerShell:[2,8,10,2], molarMass:47.867, density:4.506,
+    uses:'Titanium combines high strength with low density and exceptional corrosion resistance, making it indispensable in aerospace and medical implants. TiO₂ is the most widely used white pigment.',
+    discovered:1791, discoveredBy:'William Gregor', phase:'Solid',
+  },
+  {
+    atomicNumber:23, symbol:'V',  name:'Vanadium',  atomicMass:50.942,  group:5,  period:4,
+    category:'transition-metal', electronegativity:1.63, atomicRadius:171, meltingPoint:1910, boilingPoint:3407,
+    electronConfig:'[Ar] 3d³ 4s²', electronsPerShell:[2,8,11,2], molarMass:50.942, density:6.11,
+    uses:'Vanadium is primarily used as an alloying element in high-strength steel for tools, automotive parts, and structural applications. Vanadium redox flow batteries are a promising technology for large-scale grid energy storage.',
+    discovered:1801, discoveredBy:'Andrés Manuel del Río', phase:'Solid',
+  },

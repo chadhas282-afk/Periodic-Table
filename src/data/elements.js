@@ -75,3 +75,17 @@ export const elements = [
     uses:'Fluorine forms ultra-stable compounds like PTFE (Teflon) used in non-stick cookware and industrial linings. Fluoride compounds are added to toothpaste and water to prevent tooth decay.',
     discovered:1886, discoveredBy:'Henri Moissan', phase:'Gas',
   },
+    {
+    atomicNumber:10, symbol:'Ne', name:'Neon',      atomicMass:20.180,  group:18, period:2,
+    category:'noble-gas', electronegativity:null, atomicRadius:38, meltingPoint:-248.59, boilingPoint:-246.05,
+    electronConfig:'[He] 2s² 2p⁶', electronsPerShell:[2,8], molarMass:20.180, density:0.0008999,
+    uses:'Neon produces its vivid orange-red glow in luminous signs when electrically excited. It also serves in high-voltage indicators, TV tubes, and as a cryogenic refrigerant.',
+    discovered:1898, discoveredBy:'William Ramsay', phase:'Gas',
+  },
+  {
+    atomicNumber:11, symbol:'Na', name:'Sodium',    atomicMass:22.990,  group:1,  period:3,
+    category:'alkali-metal', electronegativity:0.93, atomicRadius:190, meltingPoint:97.79, boilingPoint:882.94,
+    electronConfig:'[Ne] 3s¹', electronsPerShell:[2,8,1], molarMass:22.990, density:0.971,
+    uses:'Sodium chloride (table salt) is essential for human physiology and food preservation worldwide. Sodium vapor lamps produce the characteristic yellow glow of street lighting.',
+    discovered:1807, discoveredBy:'Humphry Davy', phase:'Solid',
+  },

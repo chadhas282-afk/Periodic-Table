@@ -8,3 +8,14 @@ export const CATEGORIES = {
   'halogen':              { label: 'Halogen',               color: '#8b5cf6' },
   'noble-gas':            { label: 'Noble Gas',             color: '#ec4899' },
   'lanthanide':           { label: 'Lanthanide',            color: '#06b6d4' },
+    'actinide':             { label: 'Actinide',              color: '#a855f7' },
+};
+
+export const elements = [
+  {
+    atomicNumber:1, symbol:'H',  name:'Hydrogen',  atomicMass:1.008,   group:1,  period:1,
+    category:'nonmetal', electronegativity:2.20, atomicRadius:53,  meltingPoint:-259.16, boilingPoint:-252.88,
+    electronConfig:'1s¹', electronsPerShell:[1], molarMass:1.008, density:0.00008988,
+    uses:'Hydrogen is the most abundant element in the universe, used as rocket fuel and in fuel cells for clean energy. It drives the Haber process for ammonia synthesis essential to global fertilizer production.',
+    discovered:1766, discoveredBy:'Henry Cavendish', phase:'Gas',
+  },

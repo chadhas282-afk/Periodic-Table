@@ -215,3 +215,17 @@ export const elements = [
     uses:'Copper is the world\'s most important electrical conductor, forming the basis of wiring, motors, and electronic components. Its antimicrobial properties make it effective in healthcare settings.',
     discovered:-9000, discoveredBy:'Ancient times', phase:'Solid',
   },
+    {
+    atomicNumber:30, symbol:'Zn', name:'Zinc',      atomicMass:65.38,   group:12, period:4,
+    category:'transition-metal', electronegativity:1.65, atomicRadius:142, meltingPoint:419.53, boilingPoint:907,
+    electronConfig:'[Ar] 3d¹⁰ 4s²', electronsPerShell:[2,8,18,2], molarMass:65.38, density:7.133,
+    uses:'Zinc is primarily used in galvanizing steel to prevent corrosion in bridges and automotive parts. It is an essential micronutrient supporting immune function and DNA synthesis.',
+    discovered:1746, discoveredBy:'Andreas Marggraf', phase:'Solid',
+  },
+  {
+    atomicNumber:31, symbol:'Ga', name:'Gallium',   atomicMass:69.723,  group:13, period:4,
+    category:'post-transition-metal', electronegativity:1.81, atomicRadius:136, meltingPoint:29.76, boilingPoint:2204,
+    electronConfig:'[Ar] 3d¹⁰ 4s² 4p¹', electronsPerShell:[2,8,18,3], molarMass:69.723, density:5.91,
+    uses:'Gallium arsenide is a critical semiconductor in high-speed electronics, solar cells, and LED lighting. Gallium\'s near-room-temperature melting point makes it fascinating for thermometers and experiments.',
+    discovered:1875, discoveredBy:'Paul Emile Lecoq de Boisbaudran', phase:'Solid',
+  },

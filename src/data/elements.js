@@ -27,3 +27,10 @@ export const elements = [
     discovered:1868, discoveredBy:'Pierre Janssen', phase:'Gas',
   },
   {
+        atomicNumber:3, symbol:'Li', name:'Lithium',   atomicMass:6.941,   group:1,  period:2,
+    category:'alkali-metal', electronegativity:0.98, atomicRadius:167, meltingPoint:180.50, boilingPoint:1342,
+    electronConfig:'[He] 2s¹', electronsPerShell:[2,1], molarMass:6.941, density:0.534,
+    uses:'Lithium is the cornerstone of modern rechargeable battery technology powering smartphones and EVs. It is also prescribed as a mood-stabilizing medication for bipolar disorder.',
+    discovered:1817, discoveredBy:'Johan August Arfwedson', phase:'Solid',
+  },
+  {

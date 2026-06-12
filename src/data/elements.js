@@ -103,3 +103,17 @@ export const elements = [
     uses:'Aluminum is the most widely used non-ferrous metal, valued for light weight and corrosion resistance in aerospace, construction, and packaging. It is the primary material in beverage cans and aircraft fuselages.',
     discovered:1825, discoveredBy:'Hans Christian Oersted', phase:'Solid',
   },
+    {
+    atomicNumber:14, symbol:'Si', name:'Silicon',   atomicMass:28.085,  group:14, period:3,
+    category:'metalloid', electronegativity:1.90, atomicRadius:111, meltingPoint:1414, boilingPoint:3265,
+    electronConfig:'[Ne] 3s² 3p²', electronsPerShell:[2,8,4], molarMass:28.085, density:2.329,
+    uses:'Silicon is the foundation of modern electronics, serving as the primary semiconductor in integrated circuits and solar cells. Silicon dioxide (quartz) is a major component of glass and ceramics.',
+    discovered:1824, discoveredBy:'Jöns Jacob Berzelius', phase:'Solid',
+  },
+  {
+    atomicNumber:15, symbol:'P',  name:'Phosphorus',atomicMass:30.974,  group:15, period:3,
+    category:'nonmetal', electronegativity:2.19, atomicRadius:98, meltingPoint:44.15, boilingPoint:280.50,
+    electronConfig:'[Ne] 3s² 3p³', electronsPerShell:[2,8,5], molarMass:30.974, density:1.82,
+    uses:'Phosphorus forms the backbone of DNA and ATP, the energy currency of all living cells. It is a critical component of fertilizers, sustaining global agricultural productivity.',
+    discovered:1669, discoveredBy:'Hennig Brand', phase:'Solid',
+  },

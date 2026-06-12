@@ -243,3 +243,17 @@ export const elements = [
     uses:'Arsenic is used as a dopant in semiconductors and in gallium arsenide for high-speed electronics. It was historically used in wood preservation but has largely been phased out due to toxicity.',
     discovered:1250, discoveredBy:'Albertus Magnus', phase:'Solid',
   },
+    {
+    atomicNumber:34, symbol:'Se', name:'Selenium',  atomicMass:78.971,  group:16, period:4,
+    category:'nonmetal', electronegativity:2.55, atomicRadius:103, meltingPoint:220.80, boilingPoint:685,
+    electronConfig:'[Ar] 3d¹⁰ 4s² 4p⁴', electronsPerShell:[2,8,18,6], molarMass:78.971, density:4.81,
+    uses:'Selenium is used in photovoltaic cells and photocopiers due to its photoconductivity. It is an essential trace element acting as an antioxidant and supporting thyroid hormone metabolism.',
+    discovered:1817, discoveredBy:'Jöns Jacob Berzelius', phase:'Solid',
+  },
+  {
+    atomicNumber:35, symbol:'Br', name:'Bromine',   atomicMass:79.904,  group:17, period:4,
+    category:'halogen', electronegativity:2.96, atomicRadius:94, meltingPoint:-7.20, boilingPoint:59,
+    electronConfig:'[Ar] 3d¹⁰ 4s² 4p⁵', electronsPerShell:[2,8,18,7], molarMass:79.904, density:3.11,
+    uses:'Bromine compounds are used as flame retardants in electronics and building materials. It was historically used in photography and is currently used in water purification.',
+    discovered:1825, discoveredBy:'Antoine Jérôme Balard', phase:'Liquid',
+  },

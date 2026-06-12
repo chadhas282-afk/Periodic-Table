@@ -34,3 +34,16 @@ export const elements = [
     discovered:1817, discoveredBy:'Johan August Arfwedson', phase:'Solid',
   },
   {
+        atomicNumber:4, symbol:'Be', name:'Beryllium', atomicMass:9.0122,  group:2,  period:2,
+    category:'alkaline-earth-metal', electronegativity:1.57, atomicRadius:112, meltingPoint:1287, boilingPoint:2468,
+    electronConfig:'[He] 2s²', electronsPerShell:[2,2], molarMass:9.0122, density:1.85,
+    uses:'Beryllium is used in aerospace components due to its exceptional strength-to-weight ratio. It is a critical material in X-ray windows and nuclear reactor components.',
+    discovered:1798, discoveredBy:'Louis-Nicolas Vauquelin', phase:'Solid',
+  },
+  {
+    atomicNumber:5, symbol:'B',  name:'Boron',     atomicMass:10.81,   group:13, period:2,
+    category:'metalloid', electronegativity:2.04, atomicRadius:87, meltingPoint:2076, boilingPoint:3927,
+    electronConfig:'[He] 2s² 2p¹', electronsPerShell:[2,3], molarMass:10.81, density:2.34,
+    uses:'Boron is used in fiberglass and borosilicate glass (Pyrex) for heat-resistant cookware. Boron compounds serve as detergents, bleaches, and semiconductor dopants.',
+    discovered:1808, discoveredBy:'Joseph Louis Gay-Lussac', phase:'Solid',
+  },

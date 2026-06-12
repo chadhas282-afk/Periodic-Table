@@ -19,3 +19,11 @@ export const elements = [
     uses:'Hydrogen is the most abundant element in the universe, used as rocket fuel and in fuel cells for clean energy. It drives the Haber process for ammonia synthesis essential to global fertilizer production.',
     discovered:1766, discoveredBy:'Henry Cavendish', phase:'Gas',
   },
+    {
+    atomicNumber:2, symbol:'He', name:'Helium',    atomicMass:4.0026,  group:18, period:1,
+    category:'noble-gas', electronegativity:null, atomicRadius:31, meltingPoint:-272.20, boilingPoint:-268.93,
+    electronConfig:'1s²', electronsPerShell:[2], molarMass:4.0026, density:0.0001645,
+    uses:'Helium fills balloons and blimps due to its low density and non-flammability. It cools superconducting magnets in MRI machines and particle accelerators.',
+    discovered:1868, discoveredBy:'Pierre Janssen', phase:'Gas',
+  },
+  {

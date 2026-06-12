@@ -201,3 +201,17 @@ export const elements = [
     uses:'Cobalt is a critical material in lithium-ion batteries, essential for electric vehicles and portable electronics. Cobalt blue has been prized as a pigment in art and ceramics for centuries.',
     discovered:1735, discoveredBy:'Georg Brandt', phase:'Solid',
   },
+    {
+    atomicNumber:28, symbol:'Ni', name:'Nickel',    atomicMass:58.693,  group:10, period:4,
+    category:'transition-metal', electronegativity:1.91, atomicRadius:149, meltingPoint:1455, boilingPoint:2730,
+    electronConfig:'[Ar] 3d⁸ 4s²', electronsPerShell:[2,8,16,2], molarMass:58.693, density:8.908,
+    uses:'Nickel is essential for stainless steel and corrosion-resistant alloys used in chemical plants and marine applications. It is used in rechargeable batteries and as a hydrogenation catalyst.',
+    discovered:1751, discoveredBy:'Axel Fredrik Cronstedt', phase:'Solid',
+  },
+  {
+    atomicNumber:29, symbol:'Cu', name:'Copper',    atomicMass:63.546,  group:11, period:4,
+    category:'transition-metal', electronegativity:1.90, atomicRadius:145, meltingPoint:1084.62, boilingPoint:2562,
+    electronConfig:'[Ar] 3d¹⁰ 4s¹', electronsPerShell:[2,8,18,1], molarMass:63.546, density:8.96,
+    uses:'Copper is the world\'s most important electrical conductor, forming the basis of wiring, motors, and electronic components. Its antimicrobial properties make it effective in healthcare settings.',
+    discovered:-9000, discoveredBy:'Ancient times', phase:'Solid',
+  },

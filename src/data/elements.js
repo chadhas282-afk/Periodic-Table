@@ -173,3 +173,17 @@ export const elements = [
     uses:'Vanadium is primarily used as an alloying element in high-strength steel for tools, automotive parts, and structural applications. Vanadium redox flow batteries are a promising technology for large-scale grid energy storage.',
     discovered:1801, discoveredBy:'Andrés Manuel del Río', phase:'Solid',
   },
+    {
+    atomicNumber:24, symbol:'Cr', name:'Chromium',  atomicMass:51.996,  group:6,  period:4,
+    category:'transition-metal', electronegativity:1.66, atomicRadius:166, meltingPoint:1907, boilingPoint:2671,
+    electronConfig:'[Ar] 3d⁵ 4s¹', electronsPerShell:[2,8,13,1], molarMass:51.996, density:7.15,
+    uses:'Chromium is essential for stainless steel, providing corrosion resistance to kitchen utensils and industrial equipment. Chrome plating gives metals a shiny, hard surface used in automotive applications.',
+    discovered:1798, discoveredBy:'Louis Nicolas Vauquelin', phase:'Solid',
+  },
+  {
+    atomicNumber:25, symbol:'Mn', name:'Manganese', atomicMass:54.938,  group:7,  period:4,
+    category:'transition-metal', electronegativity:1.55, atomicRadius:161, meltingPoint:1246, boilingPoint:2061,
+    electronConfig:'[Ar] 3d⁵ 4s²', electronsPerShell:[2,8,13,2], molarMass:54.938, density:7.21,
+    uses:'Manganese is a critical alloying element in steel production, improving strength and hardness. It is an essential trace element supporting bone formation and antioxidant function in humans.',
+    discovered:1774, discoveredBy:'Johan Gottlieb Gahn', phase:'Solid',
+  },

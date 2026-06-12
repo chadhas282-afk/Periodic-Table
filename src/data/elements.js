@@ -117,3 +117,17 @@ export const elements = [
     uses:'Phosphorus forms the backbone of DNA and ATP, the energy currency of all living cells. It is a critical component of fertilizers, sustaining global agricultural productivity.',
     discovered:1669, discoveredBy:'Hennig Brand', phase:'Solid',
   },
+    {
+    atomicNumber:16, symbol:'S',  name:'Sulfur',    atomicMass:32.06,   group:16, period:3,
+    category:'nonmetal', electronegativity:2.58, atomicRadius:88, meltingPoint:119.36, boilingPoint:444.72,
+    electronConfig:'[Ne] 3s² 3p⁴', electronsPerShell:[2,8,6], molarMass:32.06, density:2.07,
+    uses:'Sulfur is primarily used in producing sulfuric acid, the most produced industrial chemical, vital for fertilizers and oil refining. It also vulcanizes rubber to improve durability and elasticity.',
+    discovered:-2000, discoveredBy:'Ancient times', phase:'Solid',
+  },
+  {
+    atomicNumber:17, symbol:'Cl', name:'Chlorine',  atomicMass:35.45,   group:17, period:3,
+    category:'halogen', electronegativity:3.16, atomicRadius:79, meltingPoint:-101.05, boilingPoint:-34.04,
+    electronConfig:'[Ne] 3s² 3p⁵', electronsPerShell:[2,8,7], molarMass:35.45, density:0.003214,
+    uses:'Chlorine is a powerful disinfectant used to treat drinking water and swimming pools globally. It is a key ingredient in PVC plastics and many life-saving pharmaceutical drugs.',
+    discovered:1774, discoveredBy:'Carl Wilhelm Scheele', phase:'Gas',
+  },

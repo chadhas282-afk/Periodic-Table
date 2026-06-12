@@ -47,3 +47,17 @@ export const elements = [
     uses:'Boron is used in fiberglass and borosilicate glass (Pyrex) for heat-resistant cookware. Boron compounds serve as detergents, bleaches, and semiconductor dopants.',
     discovered:1808, discoveredBy:'Joseph Louis Gay-Lussac', phase:'Solid',
   },
+    {
+    atomicNumber:6, symbol:'C',  name:'Carbon',    atomicMass:12.011,  group:14, period:2,
+    category:'nonmetal', electronegativity:2.55, atomicRadius:67, meltingPoint:3642, boilingPoint:4827,
+    electronConfig:'[He] 2s² 2p²', electronsPerShell:[2,4], molarMass:12.011, density:2.267,
+    uses:'Carbon is the basis of all known life, forming the backbone of DNA and proteins. In its pure forms—diamond and graphite—it serves in cutting tools, electrodes, and carbon fiber composites.',
+    discovered:-3750, discoveredBy:'Ancient times', phase:'Solid',
+  },
+  {
+    atomicNumber:7, symbol:'N',  name:'Nitrogen',  atomicMass:14.007,  group:15, period:2,
+    category:'nonmetal', electronegativity:3.04, atomicRadius:56, meltingPoint:-210.01, boilingPoint:-195.79,
+    electronConfig:'[He] 2s² 2p³', electronsPerShell:[2,5], molarMass:14.007, density:0.001145,
+    uses:'Nitrogen makes up 78% of Earth\'s atmosphere and is essential for amino acids and nucleic acids. Liquid nitrogen is widely used for cryogenic preservation and scientific cooling.',
+    discovered:1772, discoveredBy:'Daniel Rutherford', phase:'Gas',
+  },

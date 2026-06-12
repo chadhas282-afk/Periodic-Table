@@ -187,3 +187,17 @@ export const elements = [
     uses:'Manganese is a critical alloying element in steel production, improving strength and hardness. It is an essential trace element supporting bone formation and antioxidant function in humans.',
     discovered:1774, discoveredBy:'Johan Gottlieb Gahn', phase:'Solid',
   },
+    {
+    atomicNumber:26, symbol:'Fe', name:'Iron',      atomicMass:55.845,  group:8,  period:4,
+    category:'transition-metal', electronegativity:1.83, atomicRadius:156, meltingPoint:1538, boilingPoint:2861,
+    electronConfig:'[Ar] 3d⁶ 4s²', electronsPerShell:[2,8,14,2], molarMass:55.845, density:7.874,
+    uses:'Iron is the most widely used metal in civilization, forming the backbone of the steel industry. Hemoglobin relies on iron to transport oxygen through the blood, making it vital for human health.',
+    discovered:-5000, discoveredBy:'Ancient times', phase:'Solid',
+  },
+  {
+    atomicNumber:27, symbol:'Co', name:'Cobalt',    atomicMass:58.933,  group:9,  period:4,
+    category:'transition-metal', electronegativity:1.88, atomicRadius:152, meltingPoint:1495, boilingPoint:2927,
+    electronConfig:'[Ar] 3d⁷ 4s²', electronsPerShell:[2,8,15,2], molarMass:58.933, density:8.90,
+    uses:'Cobalt is a critical material in lithium-ion batteries, essential for electric vehicles and portable electronics. Cobalt blue has been prized as a pigment in art and ceramics for centuries.',
+    discovered:1735, discoveredBy:'Georg Brandt', phase:'Solid',
+  },

@@ -89,3 +89,17 @@ export const elements = [
     uses:'Sodium chloride (table salt) is essential for human physiology and food preservation worldwide. Sodium vapor lamps produce the characteristic yellow glow of street lighting.',
     discovered:1807, discoveredBy:'Humphry Davy', phase:'Solid',
   },
+    {
+    atomicNumber:12, symbol:'Mg', name:'Magnesium', atomicMass:24.305,  group:2,  period:3,
+    category:'alkaline-earth-metal', electronegativity:1.31, atomicRadius:145, meltingPoint:650, boilingPoint:1091,
+    electronConfig:'[Ne] 3s²', electronsPerShell:[2,8,2], molarMass:24.305, density:1.738,
+    uses:'Magnesium is the lightest structural metal, widely used in aerospace and automotive engineering. It is the central atom of chlorophyll, making it indispensable for photosynthesis.',
+    discovered:1808, discoveredBy:'Humphry Davy', phase:'Solid',
+  },
+  {
+    atomicNumber:13, symbol:'Al', name:'Aluminum',  atomicMass:26.982,  group:13, period:3,
+    category:'post-transition-metal', electronegativity:1.61, atomicRadius:118, meltingPoint:660.32, boilingPoint:2519,
+    electronConfig:'[Ne] 3s² 3p¹', electronsPerShell:[2,8,3], molarMass:26.982, density:2.70,
+    uses:'Aluminum is the most widely used non-ferrous metal, valued for light weight and corrosion resistance in aerospace, construction, and packaging. It is the primary material in beverage cans and aircraft fuselages.',
+    discovered:1825, discoveredBy:'Hans Christian Oersted', phase:'Solid',
+  },

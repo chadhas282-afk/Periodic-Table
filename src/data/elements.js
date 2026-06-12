@@ -131,3 +131,17 @@ export const elements = [
     uses:'Chlorine is a powerful disinfectant used to treat drinking water and swimming pools globally. It is a key ingredient in PVC plastics and many life-saving pharmaceutical drugs.',
     discovered:1774, discoveredBy:'Carl Wilhelm Scheele', phase:'Gas',
   },
+    {
+    atomicNumber:18, symbol:'Ar', name:'Argon',     atomicMass:39.948,  group:18, period:3,
+    category:'noble-gas', electronegativity:null, atomicRadius:71, meltingPoint:-189.34, boilingPoint:-185.85,
+    electronConfig:'[Ne] 3s² 3p⁶', electronsPerShell:[2,8,8], molarMass:39.948, density:0.001662,
+    uses:'Argon provides an inert atmosphere for welding and producing reactive metals like titanium. It fills incandescent and fluorescent light bulbs to reduce filament oxidation.',
+    discovered:1894, discoveredBy:'Lord Rayleigh', phase:'Gas',
+  },
+  {
+    atomicNumber:19, symbol:'K',  name:'Potassium', atomicMass:39.098,  group:1,  period:4,
+    category:'alkali-metal', electronegativity:0.82, atomicRadius:243, meltingPoint:63.38, boilingPoint:759,
+    electronConfig:'[Ar] 4s¹', electronsPerShell:[2,8,8,1], molarMass:39.098, density:0.89,
+    uses:'Potassium is an essential macronutrient for plants, with potash fertilizers critical for global food production. In the human body, potassium ions regulate nerve impulses and fluid balance.',
+    discovered:1807, discoveredBy:'Humphry Davy', phase:'Solid',
+  },

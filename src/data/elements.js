@@ -145,3 +145,17 @@ export const elements = [
     uses:'Potassium is an essential macronutrient for plants, with potash fertilizers critical for global food production. In the human body, potassium ions regulate nerve impulses and fluid balance.',
     discovered:1807, discoveredBy:'Humphry Davy', phase:'Solid',
   },
+    {
+    atomicNumber:20, symbol:'Ca', name:'Calcium',   atomicMass:40.078,  group:2,  period:4,
+    category:'alkaline-earth-metal', electronegativity:1.00, atomicRadius:194, meltingPoint:842, boilingPoint:1484,
+    electronConfig:'[Ar] 4s²', electronsPerShell:[2,8,8,2], molarMass:40.078, density:1.54,
+    uses:'Calcium is the most abundant mineral in the human body, forming the structural basis of bones and teeth. Limestone and cement are fundamental to construction worldwide.',
+    discovered:1808, discoveredBy:'Humphry Davy', phase:'Solid',
+  },
+  {
+    atomicNumber:21, symbol:'Sc', name:'Scandium',  atomicMass:44.956,  group:3,  period:4,
+    category:'transition-metal', electronegativity:1.36, atomicRadius:184, meltingPoint:1541, boilingPoint:2836,
+    electronConfig:'[Ar] 3d¹ 4s²', electronsPerShell:[2,8,9,2], molarMass:44.956, density:2.985,
+    uses:'Scandium alloys are used in aerospace components and professional sports equipment like bicycle frames. Scandium iodide lamps produce a white light resembling sunlight.',
+    discovered:1879, discoveredBy:'Lars Fredrik Nilson', phase:'Solid',
+  },

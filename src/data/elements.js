@@ -397,3 +397,17 @@ export const elements = [
     uses:'Cesium atomic clocks are the world\'s most precise timekeeping devices, forming the basis of the international SI second. Cesium is used in photoelectric cells and as a catalyst in organic chemistry.',
     discovered:1860, discoveredBy:'Robert Bunsen', phase:'Solid',
   },
+    {
+    atomicNumber:56, symbol:'Ba', name:'Barium',     atomicMass:137.327, group:2,  period:6,
+    category:'alkaline-earth-metal', electronegativity:0.89, atomicRadius:222, meltingPoint:727, boilingPoint:1870,
+    electronConfig:'[Xe] 6s²', electronsPerShell:[2,8,18,18,8,2], molarMass:137.327, density:3.51,
+    uses:'Barium sulfate is used as a contrast agent in medical X-ray imaging of the gastrointestinal tract. Barium compounds produce green colors in fireworks and are used in specialty glass production.',
+    discovered:1808, discoveredBy:'Humphry Davy', phase:'Solid',
+  },
+  {
+    atomicNumber:57, symbol:'La', name:'Lanthanum',  atomicMass:138.905, group:null, period:6,
+    category:'lanthanide', electronegativity:1.10, atomicRadius:195, meltingPoint:920, boilingPoint:3464,
+    electronConfig:'[Xe] 5d¹ 6s²', electronsPerShell:[2,8,18,18,9,2], molarMass:138.905, density:6.162,
+    uses:'Lanthanum is used in camera and telescope lenses to reduce chromatic aberration and improve image quality. Lanthanum-nickel alloys can absorb up to 400 times their volume in hydrogen for storage applications.',
+    discovered:1839, discoveredBy:'Carl Gustaf Mosander', phase:'Solid',
+  },

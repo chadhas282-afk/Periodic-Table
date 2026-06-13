@@ -299,3 +299,17 @@ export const elements = [
     uses:'Niobium is used in high-strength steel alloys for pipelines, ships, and automotive structural components. Niobium is also a key material in superconducting magnets for MRI machines and particle accelerators.',
     discovered:1801, discoveredBy:'Charles Hatchett', phase:'Solid',
   },
+    {
+    atomicNumber:42, symbol:'Mo', name:'Molybdenum',atomicMass:95.96,   group:6,  period:5,
+    category:'transition-metal', electronegativity:2.16, atomicRadius:190, meltingPoint:2623, boilingPoint:4639,
+    electronConfig:'[Kr] 4d⁵ 5s¹', electronsPerShell:[2,8,18,13,1], molarMass:95.96, density:10.22,
+    uses:'Molybdenum is used in high-strength steel alloys and superalloys for turbine blades and high-temperature applications. The enzyme nitrogenase uses molybdenum to convert atmospheric nitrogen into ammonia.',
+    discovered:1778, discoveredBy:'Carl Wilhelm Scheele', phase:'Solid',
+  },
+  {
+    atomicNumber:43, symbol:'Tc', name:'Technetium',atomicMass:97,      group:7,  period:5,
+    category:'transition-metal', electronegativity:1.90, atomicRadius:183, meltingPoint:2157, boilingPoint:4265,
+    electronConfig:'[Kr] 4d⁵ 5s²', electronsPerShell:[2,8,18,13,2], molarMass:97, density:11.50,
+    uses:'Technetium-99m is the most widely used radioisotope in nuclear medicine, used in millions of diagnostic imaging procedures annually. It is the lightest element with no stable isotopes.',
+    discovered:1937, discoveredBy:'Carlo Perrier', phase:'Solid',
+  },

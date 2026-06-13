@@ -271,3 +271,17 @@ export const elements = [
     uses:'Rubidium is used in atomic clocks providing the precision needed for GPS systems. It is also used in photoelectric cells and as a getter (oxygen absorber) in vacuum tubes.',
     discovered:1861, discoveredBy:'Robert Bunsen', phase:'Solid',
   },
+    {
+    atomicNumber:38, symbol:'Sr', name:'Strontium', atomicMass:87.62,   group:2,  period:5,
+    category:'alkaline-earth-metal', electronegativity:0.95, atomicRadius:219, meltingPoint:777, boilingPoint:1382,
+    electronConfig:'[Kr] 5s²', electronsPerShell:[2,8,18,8,2], molarMass:87.62, density:2.64,
+    uses:'Strontium compounds produce the bright red color in fireworks and emergency flares. Strontium-90, a radioactive isotope, was used in nuclear auxiliary power generators.',
+    discovered:1790, discoveredBy:'William Cruickshank', phase:'Solid',
+  },
+  {
+    atomicNumber:39, symbol:'Y',  name:'Yttrium',   atomicMass:88.906,  group:3,  period:5,
+    category:'transition-metal', electronegativity:1.22, atomicRadius:212, meltingPoint:1526, boilingPoint:3336,
+    electronConfig:'[Kr] 4d¹ 5s²', electronsPerShell:[2,8,18,9,2], molarMass:88.906, density:4.47,
+    uses:'Yttrium is used in yttrium aluminum garnet (YAG) lasers for medical and industrial cutting applications. It is added to LEDs and phosphors to produce white light in modern displays.',
+    discovered:1794, discoveredBy:'Johan Gadolin', phase:'Solid',
+  },

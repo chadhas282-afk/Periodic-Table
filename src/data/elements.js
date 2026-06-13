@@ -313,3 +313,17 @@ export const elements = [
     uses:'Technetium-99m is the most widely used radioisotope in nuclear medicine, used in millions of diagnostic imaging procedures annually. It is the lightest element with no stable isotopes.',
     discovered:1937, discoveredBy:'Carlo Perrier', phase:'Solid',
   },
+    {
+    atomicNumber:44, symbol:'Ru', name:'Ruthenium', atomicMass:101.07,  group:8,  period:5,
+    category:'transition-metal', electronegativity:2.20, atomicRadius:178, meltingPoint:2334, boilingPoint:4150,
+    electronConfig:'[Kr] 4d⁷ 5s¹', electronsPerShell:[2,8,18,15,1], molarMass:101.07, density:12.37,
+    uses:'Ruthenium is used as a hardening agent in platinum and palladium alloys for electrical contacts. It is an effective catalyst for ammonia synthesis and in fuel cell technology.',
+    discovered:1844, discoveredBy:'Karl Ernst Claus', phase:'Solid',
+  },
+  {
+    atomicNumber:45, symbol:'Rh', name:'Rhodium',   atomicMass:102.906, group:9,  period:5,
+    category:'transition-metal', electronegativity:2.28, atomicRadius:173, meltingPoint:1964, boilingPoint:3695,
+    electronConfig:'[Kr] 4d⁸ 5s¹', electronsPerShell:[2,8,18,16,1], molarMass:102.906, density:12.41,
+    uses:'Rhodium is one of the rarest precious metals and is used in automotive catalytic converters to reduce NOx emissions. It is also used in jewelry plating for a bright, reflective finish.',
+    discovered:1803, discoveredBy:'William Hyde Wollaston', phase:'Solid',
+  },

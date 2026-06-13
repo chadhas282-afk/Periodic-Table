@@ -341,3 +341,17 @@ export const elements = [
     uses:'Silver has the highest electrical and thermal conductivity of all metals, invaluable in electronics and solar panels. Its natural antimicrobial properties led to widespread use in medical equipment and water purification.',
     discovered:-3000, discoveredBy:'Ancient times', phase:'Solid',
   },
+    {
+    atomicNumber:48, symbol:'Cd', name:'Cadmium',    atomicMass:112.411, group:12, period:5,
+    category:'transition-metal', electronegativity:1.69, atomicRadius:158, meltingPoint:321.07, boilingPoint:767,
+    electronConfig:'[Kr] 4d¹⁰ 5s²', electronsPerShell:[2,8,18,18,2], molarMass:112.411, density:8.65,
+    uses:'Cadmium was widely used in rechargeable NiCd batteries and as a yellow-orange pigment in paints. Cadmium telluride (CdTe) is an important thin-film solar cell material.',
+    discovered:1817, discoveredBy:'Friedrich Strohmeyer', phase:'Solid',
+  },
+  {
+    atomicNumber:49, symbol:'In', name:'Indium',     atomicMass:114.818, group:13, period:5,
+    category:'post-transition-metal', electronegativity:1.78, atomicRadius:156, meltingPoint:156.60, boilingPoint:2072,
+    electronConfig:'[Kr] 4d¹⁰ 5s² 5p¹', electronsPerShell:[2,8,18,18,3], molarMass:114.818, density:7.31,
+    uses:'Indium tin oxide (ITO) is a transparent conductor used in LCD screens, touchscreens, and solar panels. Indium is also used in low-melting alloys and as a protective coating for bearings.',
+    discovered:1863, discoveredBy:'Ferdinand Reich', phase:'Solid',
+  },

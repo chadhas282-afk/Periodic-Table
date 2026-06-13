@@ -369,3 +369,17 @@ export const elements = [
     uses:'Antimony is used as a flame retardant synergist in plastics and textiles, significantly improving fire safety. Antimony trioxide is the most important commercial compound, used in combination with halogens as a flame retardant.',
     discovered:-3000, discoveredBy:'Ancient times', phase:'Solid',
   },
+    {
+    atomicNumber:52, symbol:'Te', name:'Tellurium',  atomicMass:127.60,  group:16, period:5,
+    category:'metalloid', electronegativity:2.10, atomicRadius:123, meltingPoint:449.51, boilingPoint:987.80,
+    electronConfig:'[Kr] 4d¹⁰ 5s² 5p⁴', electronsPerShell:[2,8,18,18,6], molarMass:127.60, density:6.24,
+    uses:'Tellurium is used in cadmium telluride (CdTe) thin-film solar cells, one of the most cost-effective photovoltaic technologies. It is also used in alloys with copper and stainless steel to improve machinability.',
+    discovered:1782, discoveredBy:'Franz-Joseph Müller von Reichenstein', phase:'Solid',
+  },
+  {
+    atomicNumber:53, symbol:'I',  name:'Iodine',     atomicMass:126.904, group:17, period:5,
+    category:'halogen', electronegativity:2.66, atomicRadius:115, meltingPoint:113.70, boilingPoint:184.30,
+    electronConfig:'[Kr] 4d¹⁰ 5s² 5p⁵', electronsPerShell:[2,8,18,18,7], molarMass:126.904, density:4.933,
+    uses:'Iodine is an essential micronutrient for thyroid hormone production, and deficiency is a leading cause of preventable intellectual disabilities. Iodine solutions are widely used as antiseptics for wound treatment.',
+    discovered:1811, discoveredBy:'Bernard Courtois', phase:'Solid',
+  },

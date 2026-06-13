@@ -257,3 +257,17 @@ export const elements = [
     uses:'Bromine compounds are used as flame retardants in electronics and building materials. It was historically used in photography and is currently used in water purification.',
     discovered:1825, discoveredBy:'Antoine Jérôme Balard', phase:'Liquid',
   },
+    {
+    atomicNumber:36, symbol:'Kr', name:'Krypton',   atomicMass:83.798,  group:18, period:4,
+    category:'noble-gas', electronegativity:null, atomicRadius:88, meltingPoint:-157.36, boilingPoint:-153.22,
+    electronConfig:'[Ar] 3d¹⁰ 4s² 4p⁶', electronsPerShell:[2,8,18,8], molarMass:83.798, density:0.003749,
+    uses:'Krypton is used in high-performance flash lamps for high-speed photography and in energy-efficient lighting. Krypton-85 is used in nuclear industry leak detection.',
+    discovered:1898, discoveredBy:'William Ramsay', phase:'Gas',
+  },
+  {
+    atomicNumber:37, symbol:'Rb', name:'Rubidium',  atomicMass:85.468,  group:1,  period:5,
+    category:'alkali-metal', electronegativity:0.82, atomicRadius:265, meltingPoint:39.31, boilingPoint:688,
+    electronConfig:'[Kr] 5s¹', electronsPerShell:[2,8,18,8,1], molarMass:85.468, density:1.532,
+    uses:'Rubidium is used in atomic clocks providing the precision needed for GPS systems. It is also used in photoelectric cells and as a getter (oxygen absorber) in vacuum tubes.',
+    discovered:1861, discoveredBy:'Robert Bunsen', phase:'Solid',
+  },

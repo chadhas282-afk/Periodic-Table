@@ -383,3 +383,17 @@ export const elements = [
     uses:'Iodine is an essential micronutrient for thyroid hormone production, and deficiency is a leading cause of preventable intellectual disabilities. Iodine solutions are widely used as antiseptics for wound treatment.',
     discovered:1811, discoveredBy:'Bernard Courtois', phase:'Solid',
   },
+    {
+    atomicNumber:54, symbol:'Xe', name:'Xenon',      atomicMass:131.293, group:18, period:5,
+    category:'noble-gas', electronegativity:2.60, atomicRadius:108, meltingPoint:-111.80, boilingPoint:-108.10,
+    electronConfig:'[Kr] 4d¹⁰ 5s² 5p⁶', electronsPerShell:[2,8,18,18,8], molarMass:131.293, density:0.005894,
+    uses:'Xenon is used in high-intensity arc lamps for film projectors and luxury vehicle headlights. Xenon is used as a propellant in ion drives for spacecraft and as an anesthetic in medicine.',
+    discovered:1898, discoveredBy:'William Ramsay', phase:'Gas',
+  },
+  {
+    atomicNumber:55, symbol:'Cs', name:'Cesium',     atomicMass:132.905, group:1,  period:6,
+    category:'alkali-metal', electronegativity:0.79, atomicRadius:298, meltingPoint:28.44, boilingPoint:671,
+    electronConfig:'[Xe] 6s¹', electronsPerShell:[2,8,18,18,8,1], molarMass:132.905, density:1.879,
+    uses:'Cesium atomic clocks are the world\'s most precise timekeeping devices, forming the basis of the international SI second. Cesium is used in photoelectric cells and as a catalyst in organic chemistry.',
+    discovered:1860, discoveredBy:'Robert Bunsen', phase:'Solid',
+  },

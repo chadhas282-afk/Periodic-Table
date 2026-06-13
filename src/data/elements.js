@@ -327,3 +327,17 @@ export const elements = [
     uses:'Rhodium is one of the rarest precious metals and is used in automotive catalytic converters to reduce NOx emissions. It is also used in jewelry plating for a bright, reflective finish.',
     discovered:1803, discoveredBy:'William Hyde Wollaston', phase:'Solid',
   },
+    {
+    atomicNumber:46, symbol:'Pd', name:'Palladium',  atomicMass:106.42,  group:10, period:5,
+    category:'transition-metal', electronegativity:2.20, atomicRadius:169, meltingPoint:1554.9, boilingPoint:2963,
+    electronConfig:'[Kr] 4d¹⁰', electronsPerShell:[2,8,18,18], molarMass:106.42, density:12.02,
+    uses:'Palladium is a key component of automotive catalytic converters, converting harmful pollutants into less toxic gases. It is used in electronics, dentistry, and is a catalyst in hydrogen purification.',
+    discovered:1803, discoveredBy:'William Hyde Wollaston', phase:'Solid',
+  },
+  {
+    atomicNumber:47, symbol:'Ag', name:'Silver',     atomicMass:107.868, group:11, period:5,
+    category:'transition-metal', electronegativity:1.93, atomicRadius:165, meltingPoint:961.78, boilingPoint:2162,
+    electronConfig:'[Kr] 4d¹⁰ 5s¹', electronsPerShell:[2,8,18,18,1], molarMass:107.868, density:10.49,
+    uses:'Silver has the highest electrical and thermal conductivity of all metals, invaluable in electronics and solar panels. Its natural antimicrobial properties led to widespread use in medical equipment and water purification.',
+    discovered:-3000, discoveredBy:'Ancient times', phase:'Solid',
+  },

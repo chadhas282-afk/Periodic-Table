@@ -411,3 +411,17 @@ export const elements = [
     uses:'Lanthanum is used in camera and telescope lenses to reduce chromatic aberration and improve image quality. Lanthanum-nickel alloys can absorb up to 400 times their volume in hydrogen for storage applications.',
     discovered:1839, discoveredBy:'Carl Gustaf Mosander', phase:'Solid',
   },
+    {
+    atomicNumber:58, symbol:'Ce', name:'Cerium',     atomicMass:140.116, group:null, period:6,
+    category:'lanthanide', electronegativity:1.12, atomicRadius:185, meltingPoint:798, boilingPoint:3443,
+    electronConfig:'[Xe] 4f¹ 5d¹ 6s²', electronsPerShell:[2,8,18,19,9,2], molarMass:140.116, density:6.770,
+    uses:'Cerium oxide is used as a glass polishing agent and catalyst in automotive catalytic converters to reduce emissions. Cerium is the most abundant rare earth element, found in many everyday applications.',
+    discovered:1803, discoveredBy:'Martin Heinrich Klaproth', phase:'Solid',
+  },
+  {
+    atomicNumber:59, symbol:'Pr', name:'Praseodymium',atomicMass:140.908,group:null, period:6,
+    category:'lanthanide', electronegativity:1.13, atomicRadius:185, meltingPoint:931, boilingPoint:3520,
+    electronConfig:'[Xe] 4f³ 6s²', electronsPerShell:[2,8,18,21,8,2], molarMass:140.908, density:6.77,
+    uses:'Praseodymium is used in powerful neodymium-praseodymium magnets for wind turbines and electric vehicles. Its salts produce a distinctive yellow-green color used in goggles for glassblowers and welders.',
+    discovered:1885, discoveredBy:'Carl Auer von Welsbach', phase:'Solid',
+  },

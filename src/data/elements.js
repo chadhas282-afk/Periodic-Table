@@ -467,3 +467,17 @@ export const elements = [
     uses:'Terbium is used as a green phosphor in fluorescent lamps and color displays. Terbium-iron alloys exhibit magnetostriction, enabling precision actuators and sonar systems.',
     discovered:1843, discoveredBy:'Carl Gustaf Mosander', phase:'Solid',
   },
+    {
+    atomicNumber:66, symbol:'Dy', name:'Dysprosium', atomicMass:162.500, group:null, period:6,
+    category:'lanthanide', electronegativity:1.22, atomicRadius:175, meltingPoint:1407, boilingPoint:2567,
+    electronConfig:'[Xe] 4f¹⁰ 6s²', electronsPerShell:[2,8,18,28,8,2], molarMass:162.500, density:8.55,
+    uses:'Dysprosium is added to neodymium magnets to maintain coercivity at high temperatures, critical for electric vehicle motors. It is also used in nuclear reactor control rods due to its high neutron-absorption cross section.',
+    discovered:1886, discoveredBy:'Paul Emile Lecoq de Boisbaudran', phase:'Solid',
+  },
+  {
+    atomicNumber:67, symbol:'Ho', name:'Holmium',    atomicMass:164.930, group:null, period:6,
+    category:'lanthanide', electronegativity:1.23, atomicRadius:175, meltingPoint:1461, boilingPoint:2720,
+    electronConfig:'[Xe] 4f¹¹ 6s²', electronsPerShell:[2,8,18,29,8,2], molarMass:164.930, density:8.80,
+    uses:'Holmium has the highest magnetic moment of any naturally occurring element, used in the pole pieces of high-strength magnets. Holmium lasers are used in medical procedures including kidney stone removal.',
+    discovered:1878, discoveredBy:'Jacques-Louis Soret', phase:'Solid',
+  },

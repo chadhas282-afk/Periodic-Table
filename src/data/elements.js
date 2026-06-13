@@ -453,3 +453,17 @@ export const elements = [
     uses:'Europium is used as a red and blue phosphor in LED displays, TVs, and fluorescent lamps for vivid color reproduction. It also serves as a UV-fluorescent security marker in euro banknotes.',
     discovered:1901, discoveredBy:'Eugène-Anatole Demarçay', phase:'Solid',
   },
+    {
+    atomicNumber:64, symbol:'Gd', name:'Gadolinium', atomicMass:157.25,  group:null, period:6,
+    category:'lanthanide', electronegativity:1.20, atomicRadius:180, meltingPoint:1313, boilingPoint:3273,
+    electronConfig:'[Xe] 4f⁷ 5d¹ 6s²', electronsPerShell:[2,8,18,25,9,2], molarMass:157.25, density:7.90,
+    uses:'Gadolinium-based contrast agents are the most widely used MRI contrast agents for diagnostic imaging. Its exceptional neutron-absorbing properties make it useful in nuclear reactor control.',
+    discovered:1880, discoveredBy:'Jean Charles Galissard de Marignac', phase:'Solid',
+  },
+  {
+    atomicNumber:65, symbol:'Tb', name:'Terbium',    atomicMass:158.925, group:null, period:6,
+    category:'lanthanide', electronegativity:1.20, atomicRadius:175, meltingPoint:1356, boilingPoint:3230,
+    electronConfig:'[Xe] 4f⁹ 6s²', electronsPerShell:[2,8,18,27,8,2], molarMass:158.925, density:8.23,
+    uses:'Terbium is used as a green phosphor in fluorescent lamps and color displays. Terbium-iron alloys exhibit magnetostriction, enabling precision actuators and sonar systems.',
+    discovered:1843, discoveredBy:'Carl Gustaf Mosander', phase:'Solid',
+  },

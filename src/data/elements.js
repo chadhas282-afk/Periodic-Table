@@ -355,3 +355,17 @@ export const elements = [
     uses:'Indium tin oxide (ITO) is a transparent conductor used in LCD screens, touchscreens, and solar panels. Indium is also used in low-melting alloys and as a protective coating for bearings.',
     discovered:1863, discoveredBy:'Ferdinand Reich', phase:'Solid',
   },
+    {
+    atomicNumber:50, symbol:'Sn', name:'Tin',        atomicMass:118.710, group:14, period:5,
+    category:'post-transition-metal', electronegativity:1.96, atomicRadius:145, meltingPoint:231.93, boilingPoint:2602,
+    electronConfig:'[Kr] 4d¹⁰ 5s² 5p²', electronsPerShell:[2,8,18,18,4], molarMass:118.710, density:7.287,
+    uses:'Tin is used in soldering alloys for electronics assembly, forming reliable circuit board connections. Tin plating of steel creates cans for food preservation, one of the oldest and most widespread food storage technologies.',
+    discovered:-3500, discoveredBy:'Ancient times', phase:'Solid',
+  },
+  {
+    atomicNumber:51, symbol:'Sb', name:'Antimony',   atomicMass:121.760, group:15, period:5,
+    category:'metalloid', electronegativity:2.05, atomicRadius:133, meltingPoint:630.63, boilingPoint:1587,
+    electronConfig:'[Kr] 4d¹⁰ 5s² 5p³', electronsPerShell:[2,8,18,18,5], molarMass:121.760, density:6.697,
+    uses:'Antimony is used as a flame retardant synergist in plastics and textiles, significantly improving fire safety. Antimony trioxide is the most important commercial compound, used in combination with halogens as a flame retardant.',
+    discovered:-3000, discoveredBy:'Ancient times', phase:'Solid',
+  },

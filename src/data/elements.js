@@ -425,3 +425,17 @@ export const elements = [
     uses:'Praseodymium is used in powerful neodymium-praseodymium magnets for wind turbines and electric vehicles. Its salts produce a distinctive yellow-green color used in goggles for glassblowers and welders.',
     discovered:1885, discoveredBy:'Carl Auer von Welsbach', phase:'Solid',
   },
+    {
+    atomicNumber:60, symbol:'Nd', name:'Neodymium',  atomicMass:144.242, group:null, period:6,
+    category:'lanthanide', electronegativity:1.14, atomicRadius:185, meltingPoint:1024, boilingPoint:3074,
+    electronConfig:'[Xe] 4f⁴ 6s²', electronsPerShell:[2,8,18,22,8,2], molarMass:144.242, density:7.01,
+    uses:'Neodymium-iron-boron (NdFeB) magnets are the strongest permanent magnets known, essential for EV motors and wind turbines. Neodymium glass lasers are used in nuclear fusion research.',
+    discovered:1885, discoveredBy:'Carl Auer von Welsbach', phase:'Solid',
+  },
+  {
+    atomicNumber:61, symbol:'Pm', name:'Promethium', atomicMass:145,     group:null, period:6,
+    category:'lanthanide', electronegativity:1.13, atomicRadius:185, meltingPoint:1042, boilingPoint:3000,
+    electronConfig:'[Xe] 4f⁵ 6s²', electronsPerShell:[2,8,18,23,8,2], molarMass:145, density:7.26,
+    uses:'Promethium is entirely synthetic and radioactive, with no stable isotopes. It has been used in miniature nuclear batteries (atomic batteries) for spacecraft and pacemakers.',
+    discovered:1945, discoveredBy:'Jacob A. Marinsky', phase:'Solid',
+  },

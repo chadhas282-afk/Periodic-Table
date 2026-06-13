@@ -481,3 +481,17 @@ export const elements = [
     uses:'Holmium has the highest magnetic moment of any naturally occurring element, used in the pole pieces of high-strength magnets. Holmium lasers are used in medical procedures including kidney stone removal.',
     discovered:1878, discoveredBy:'Jacques-Louis Soret', phase:'Solid',
   },
+    {
+    atomicNumber:68, symbol:'Er', name:'Erbium',     atomicMass:167.259, group:null, period:6,
+    category:'lanthanide', electronegativity:1.24, atomicRadius:175, meltingPoint:1529, boilingPoint:2868,
+    electronConfig:'[Xe] 4f¹² 6s²', electronsPerShell:[2,8,18,30,8,2], molarMass:167.259, density:9.07,
+    uses:'Erbium is a critical dopant in erbium-doped fiber amplifiers (EDFAs) that boost signals in fiber optic telecommunications networks. Erbium-doped lasers are used in dermatology and dentistry.',
+    discovered:1843, discoveredBy:'Carl Gustaf Mosander', phase:'Solid',
+  },
+  {
+    atomicNumber:69, symbol:'Tm', name:'Thulium',    atomicMass:168.934, group:null, period:6,
+    category:'lanthanide', electronegativity:1.25, atomicRadius:175, meltingPoint:1545, boilingPoint:1950,
+    electronConfig:'[Xe] 4f¹³ 6s²', electronsPerShell:[2,8,18,31,8,2], molarMass:168.934, density:9.32,
+    uses:'Thulium is used in portable X-ray devices as a radiation source for medical imaging in remote areas. Thulium-doped fiber lasers are used in spectroscopy and atmospheric monitoring.',
+    discovered:1879, discoveredBy:'Per Teodor Cleve', phase:'Solid',
+  },

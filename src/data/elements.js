@@ -439,3 +439,17 @@ export const elements = [
     uses:'Promethium is entirely synthetic and radioactive, with no stable isotopes. It has been used in miniature nuclear batteries (atomic batteries) for spacecraft and pacemakers.',
     discovered:1945, discoveredBy:'Jacob A. Marinsky', phase:'Solid',
   },
+    {
+    atomicNumber:62, symbol:'Sm', name:'Samarium',   atomicMass:150.36,  group:null, period:6,
+    category:'lanthanide', electronegativity:1.17, atomicRadius:185, meltingPoint:1072, boilingPoint:1794,
+    electronConfig:'[Xe] 4f⁶ 6s²', electronsPerShell:[2,8,18,24,8,2], molarMass:150.36, density:7.52,
+    uses:'Samarium-cobalt magnets offer exceptional high-temperature performance for motors and turbines. Samarium-153 is used in cancer treatment to relieve bone pain from metastases.',
+    discovered:1879, discoveredBy:'Paul Emile Lecoq de Boisbaudran', phase:'Solid',
+  },
+  {
+    atomicNumber:63, symbol:'Eu', name:'Europium',   atomicMass:151.964, group:null, period:6,
+    category:'lanthanide', electronegativity:null, atomicRadius:185, meltingPoint:826, boilingPoint:1529,
+    electronConfig:'[Xe] 4f⁷ 6s²', electronsPerShell:[2,8,18,25,8,2], molarMass:151.964, density:5.244,
+    uses:'Europium is used as a red and blue phosphor in LED displays, TVs, and fluorescent lamps for vivid color reproduction. It also serves as a UV-fluorescent security marker in euro banknotes.',
+    discovered:1901, discoveredBy:'Eugène-Anatole Demarçay', phase:'Solid',
+  },

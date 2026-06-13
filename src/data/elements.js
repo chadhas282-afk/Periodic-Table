@@ -537,3 +537,17 @@ export const elements = [
     uses: 'Rhenium is used in superalloys for jet engine turbine blades, enabling them to withstand extreme temperatures. It is also used as a catalyst in petroleum refining to produce high-octane gasoline.',
     discovered: 1925, discoveredBy: 'Masataka Ogawa', phase: 'Solid',
   },
+    {
+    atomicNumber:76, symbol:'Os', name:'Osmium',     atomicMass:190.23,  group:8,  period:6,
+    category:'transition-metal', electronegativity:2.20, atomicRadius:185, meltingPoint:3033, boilingPoint:5012,
+    electronConfig:'[Xe] 4f¹⁴ 5d⁶ 6s²', electronsPerShell:[2,8,18,32,14,2], molarMass:190.23, density:22.59,
+    uses:'Osmium is the densest naturally occurring element, used in specialized alloys for electrical contacts and fountain pen tips. Osmium tetroxide is used in electron microscopy as a tissue staining agent.',
+    discovered:1803, discoveredBy:'Smithson Tennant', phase:'Solid',
+  },
+  {
+    atomicNumber:77, symbol:'Ir', name:'Iridium',    atomicMass:192.217, group:9,  period:6,
+    category:'transition-metal', electronegativity:2.20, atomicRadius:180, meltingPoint:2446, boilingPoint:4428,
+    electronConfig:'[Xe] 4f¹⁴ 5d⁷ 6s²', electronsPerShell:[2,8,18,32,15,2], molarMass:192.217, density:22.56,
+    uses:'Iridium is the most corrosion-resistant metal known, used with platinum for spark plug electrodes in aviation. The international prototype kilogram was made of a platinum-iridium alloy until 2019.',
+    discovered:1803, discoveredBy:'Smithson Tennant', phase:'Solid',
+  },

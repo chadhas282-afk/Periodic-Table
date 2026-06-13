@@ -285,3 +285,17 @@ export const elements = [
     uses:'Yttrium is used in yttrium aluminum garnet (YAG) lasers for medical and industrial cutting applications. It is added to LEDs and phosphors to produce white light in modern displays.',
     discovered:1794, discoveredBy:'Johan Gadolin', phase:'Solid',
   },
+    {
+    atomicNumber:40, symbol:'Zr', name:'Zirconium', atomicMass:91.224,  group:4,  period:5,
+    category:'transition-metal', electronegativity:1.33, atomicRadius:206, meltingPoint:1855, boilingPoint:4409,
+    electronConfig:'[Kr] 4d² 5s²', electronsPerShell:[2,8,18,10,2], molarMass:91.224, density:6.52,
+    uses:'Zirconium is widely used in nuclear reactors as fuel rod cladding due to its low neutron-absorption cross section. Cubic zirconia (ZrO₂) is a popular diamond simulant in jewelry.',
+    discovered:1789, discoveredBy:'Martin Heinrich Klaproth', phase:'Solid',
+  },
+  {
+    atomicNumber:41, symbol:'Nb', name:'Niobium',   atomicMass:92.906,  group:5,  period:5,
+    category:'transition-metal', electronegativity:1.60, atomicRadius:198, meltingPoint:2477, boilingPoint:4744,
+    electronConfig:'[Kr] 4d⁴ 5s¹', electronsPerShell:[2,8,18,12,1], molarMass:92.906, density:8.57,
+    uses:'Niobium is used in high-strength steel alloys for pipelines, ships, and automotive structural components. Niobium is also a key material in superconducting magnets for MRI machines and particle accelerators.',
+    discovered:1801, discoveredBy:'Charles Hatchett', phase:'Solid',
+  },

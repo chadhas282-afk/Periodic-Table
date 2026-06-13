@@ -509,3 +509,17 @@ export const elements = [
     uses:'Lutetium-177 is a powerful radiopharmaceutical used in targeted therapy for neuroendocrine tumors and prostate cancer. Lutetium aluminium garnet (LuAG) is used as a scintillator in PET scanners.',
     discovered:1907, discoveredBy:'Georges Urbain', phase:'Solid',
   },
+    {
+    atomicNumber:72, symbol:'Hf', name:'Hafnium',    atomicMass:178.49,  group:4,  period:6,
+    category:'transition-metal', electronegativity:1.30, atomicRadius:193, meltingPoint:2233, boilingPoint:4603,
+    electronConfig:'[Xe] 4f¹⁴ 5d² 6s²', electronsPerShell:[2,8,18,32,10,2], molarMass:178.49, density:13.31,
+    uses:'Hafnium is used in nuclear reactor control rods due to its high thermal neutron-absorption cross section. Hafnium oxide is a high-k dielectric material used in advanced CMOS transistors below 45 nm.',
+    discovered:1923, discoveredBy:'Dirk Coster', phase:'Solid',
+  },
+  {
+    atomicNumber:73, symbol:'Ta', name:'Tantalum',   atomicMass:180.948, group:5,  period:6,
+    category:'transition-metal', electronegativity:1.50, atomicRadius:193, meltingPoint:3017, boilingPoint:5458,
+    electronConfig:'[Xe] 4f¹⁴ 5d³ 6s²', electronsPerShell:[2,8,18,32,11,2], molarMass:180.948, density:16.69,
+    uses:'Tantalum capacitors are essential in electronic devices like smartphones and laptops due to high capacitance and reliability. Tantalum alloys are used in jet engine components and chemical processing equipment.',
+    discovered:1802, discoveredBy:'Anders Gustaf Ekeberg', phase:'Solid',
+  },

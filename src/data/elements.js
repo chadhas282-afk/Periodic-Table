@@ -495,3 +495,17 @@ export const elements = [
     uses:'Thulium is used in portable X-ray devices as a radiation source for medical imaging in remote areas. Thulium-doped fiber lasers are used in spectroscopy and atmospheric monitoring.',
     discovered:1879, discoveredBy:'Per Teodor Cleve', phase:'Solid',
   },
+    {
+    atomicNumber:70, symbol:'Yb', name:'Ytterbium',  atomicMass:173.045, group:null, period:6,
+    category:'lanthanide', electronegativity:1.10, atomicRadius:175, meltingPoint:824, boilingPoint:1196,
+    electronConfig:'[Xe] 4f¹⁴ 6s²', electronsPerShell:[2,8,18,32,8,2], molarMass:173.045, density:6.90,
+    uses:'Ytterbium is used in the world\'s most precise atomic clocks based on optical lattice technology. It is also used in stainless steel and as a doping agent in fiber lasers.',
+    discovered:1878, discoveredBy:'Jean Charles Galissard de Marignac', phase:'Solid',
+  },
+  {
+    atomicNumber:71, symbol:'Lu', name:'Lutetium',   atomicMass:174.967, group:null, period:6,
+    category:'lanthanide', electronegativity:1.27, atomicRadius:175, meltingPoint:1652, boilingPoint:3402,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹ 6s²', electronsPerShell:[2,8,18,32,9,2], molarMass:174.967, density:9.84,
+    uses:'Lutetium-177 is a powerful radiopharmaceutical used in targeted therapy for neuroendocrine tumors and prostate cancer. Lutetium aluminium garnet (LuAG) is used as a scintillator in PET scanners.',
+    discovered:1907, discoveredBy:'Georges Urbain', phase:'Solid',
+  },

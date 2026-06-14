@@ -775,3 +775,17 @@ export const elements = [
     uses:'Meitnerium has no practical applications. Named after physicist Lise Meitner, who co-discovered nuclear fission, it is studied only as part of superheavy element research programs.',
     discovered:1982, discoveredBy:'Peter Armbruster', phase:'Solid',
   },
+    {
+    atomicNumber:110, symbol:'Ds', name:'Darmstadtium',atomicMass:281,   group:10, period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:132, meltingPoint:null, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹⁴ 6d⁸ 7s²', electronsPerShell:[2,8,18,32,32,16,2], molarMass:281, density:34.8,
+    uses:'Darmstadtium has no practical applications. It is named after Darmstadt, Germany, the city where it was first synthesized at the GSI Helmholtz Centre for Heavy Ion Research.',
+    discovered:1994, discoveredBy:'S. Hofmann', phase:'Solid',
+  },
+  {
+    atomicNumber:111, symbol:'Rg', name:'Roentgenium',atomicMass:282,    group:11, period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:138, meltingPoint:null, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹⁴ 6d¹⁰ 7s¹', electronsPerShell:[2,8,18,32,32,18,1], molarMass:282, density:28.7,
+    uses:'Roentgenium has no practical applications. Named after Wilhelm Röntgen, discoverer of X-rays, it is produced in microgram-scale experiments studying the limits of nuclear stability.',
+    discovered:1994, discoveredBy:'S. Hofmann', phase:'Solid',
+  },

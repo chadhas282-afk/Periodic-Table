@@ -761,3 +761,17 @@ export const elements = [
     uses:'Bohrium has no practical applications. Named after Niels Bohr, it is studied to verify periodic table trends in extreme regions of the chart of nuclides.',
     discovered:1981, discoveredBy:'Peter Armbruster', phase:'Solid',
   },
+    {
+    atomicNumber:108, symbol:'Hs', name:'Hassium',   atomicMass:277,     group:8,  period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:126, meltingPoint:null, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹⁴ 6d⁶ 7s²', electronsPerShell:[2,8,18,32,32,14,2], molarMass:277, density:40.7,
+    uses:'Hassium has no practical uses. A few atoms have been studied to probe whether superheavy elements follow periodic table chemical trends by forming volatile tetroxide compounds similar to osmium.',
+    discovered:1984, discoveredBy:'Peter Armbruster', phase:'Solid',
+  },
+  {
+    atomicNumber:109, symbol:'Mt', name:'Meitnerium', atomicMass:278,    group:9,  period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:128, meltingPoint:null, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹⁴ 6d⁷ 7s²', electronsPerShell:[2,8,18,32,32,15,2], molarMass:278, density:37.4,
+    uses:'Meitnerium has no practical applications. Named after physicist Lise Meitner, who co-discovered nuclear fission, it is studied only as part of superheavy element research programs.',
+    discovered:1982, discoveredBy:'Peter Armbruster', phase:'Solid',
+  },

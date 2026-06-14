@@ -593,3 +593,17 @@ export const elements = [
     uses:'Bismuth subsalicylate is the active ingredient in Pepto-Bismol, used to treat upset stomachs and diarrhea. Bismuth alloys have low melting points used in fire sprinkler heads, solders, and type metal.',
     discovered:1400, discoveredBy:'Unknown', phase:'Solid',
   },
+    {
+    atomicNumber:84, symbol:'Po', name:'Polonium',   atomicMass:209,     group:16, period:6,
+    category:'post-transition-metal', electronegativity:2.00, atomicRadius:135, meltingPoint:254, boilingPoint:962,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁴', electronsPerShell:[2,8,18,32,18,6], molarMass:209, density:9.196,
+    uses:'Polonium-210 is used in anti-static devices in the printing and textile industries. It was famously used as the energy source in the Luna and Lunokhod Soviet lunar rovers.',
+    discovered:1898, discoveredBy:'Marie Curie', phase:'Solid',
+  },
+  {
+    atomicNumber:85, symbol:'At', name:'Astatine',   atomicMass:210,     group:17, period:6,
+    category:'halogen', electronegativity:2.20, atomicRadius:127, meltingPoint:302, boilingPoint:337,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵', electronsPerShell:[2,8,18,32,18,7], molarMass:210, density:7.0,
+    uses:'Astatine-211 is used in targeted alpha-particle radiotherapy for cancer treatment due to its short range and high ionization. It is the rarest naturally occurring element on Earth.',
+    discovered:1940, discoveredBy:'Dale R. Corson', phase:'Solid',
+  },

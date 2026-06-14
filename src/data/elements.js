@@ -607,3 +607,17 @@ export const elements = [
     uses:'Astatine-211 is used in targeted alpha-particle radiotherapy for cancer treatment due to its short range and high ionization. It is the rarest naturally occurring element on Earth.',
     discovered:1940, discoveredBy:'Dale R. Corson', phase:'Solid',
   },
+    {
+    atomicNumber:86, symbol:'Rn', name:'Radon',      atomicMass:222,     group:18, period:6,
+    category:'noble-gas', electronegativity:null, atomicRadius:120, meltingPoint:-71, boilingPoint:-61.7,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶', electronsPerShell:[2,8,18,32,18,8], molarMass:222, density:0.00973,
+    uses:'Radon is monitored in buildings as a health risk since it is a decay product of uranium and can accumulate in basements. It has been used in some radiotherapy treatments for cancer.',
+    discovered:1900, discoveredBy:'Friedrich Ernst Dorn', phase:'Gas',
+  },
+  {
+    atomicNumber:87, symbol:'Fr', name:'Francium',   atomicMass:223,     group:1,  period:7,
+    category:'alkali-metal', electronegativity:0.79, atomicRadius:348, meltingPoint:27, boilingPoint:677,
+    electronConfig:'[Rn] 7s¹', electronsPerShell:[2,8,18,32,18,8,1], molarMass:223, density:1.87,
+    uses:'Francium is one of the rarest and most radioactive elements, practically impossible to accumulate in visible quantities. It has no significant commercial applications and is used only in scientific research.',
+    discovered:1939, discoveredBy:'Marguerite Perey', phase:'Solid',
+  },

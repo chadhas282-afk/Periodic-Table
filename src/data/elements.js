@@ -551,3 +551,17 @@ export const elements = [
     uses:'Iridium is the most corrosion-resistant metal known, used with platinum for spark plug electrodes in aviation. The international prototype kilogram was made of a platinum-iridium alloy until 2019.',
     discovered:1803, discoveredBy:'Smithson Tennant', phase:'Solid',
   },
+    {
+    atomicNumber:78, symbol:'Pt', name:'Platinum',   atomicMass:195.084, group:10, period:6,
+    category:'transition-metal', electronegativity:2.28, atomicRadius:177, meltingPoint:1768.3, boilingPoint:3825,
+    electronConfig:'[Xe] 4f¹⁴ 5d⁹ 6s¹', electronsPerShell:[2,8,18,32,17,1], molarMass:195.084, density:21.45,
+    uses:'Platinum is the primary component of automotive catalytic converters, converting harmful exhaust gases into less toxic substances. It is used in jewelry, medical devices like pacemakers, and cancer treatment drugs.',
+    discovered:1735, discoveredBy:'Antonio de Ulloa', phase:'Solid',
+  },
+  {
+    atomicNumber:79, symbol:'Au', name:'Gold',       atomicMass:196.967, group:11, period:6,
+    category:'transition-metal', electronegativity:2.54, atomicRadius:174, meltingPoint:1064.18, boilingPoint:2856,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹⁰ 6s¹', electronsPerShell:[2,8,18,32,18,1], molarMass:196.967, density:19.30,
+    uses:'Gold is the most malleable of all metals, used in jewelry, coins, and monetary reserves for millennia. In modern technology, gold\'s conductivity and corrosion resistance are indispensable in electronics and satellite components.',
+    discovered:-6000, discoveredBy:'Ancient times', phase:'Solid',
+  },

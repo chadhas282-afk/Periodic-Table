@@ -649,3 +649,17 @@ export const elements = [
     uses:'Protactinium has no significant commercial applications due to its rarity, high radioactivity, and toxicity. It is used in scientific research to understand the chemistry of actinide elements.',
     discovered:1913, discoveredBy:'Kasimir Fajans', phase:'Solid',
   },
+    {
+    atomicNumber:92, symbol:'U',  name:'Uranium',    atomicMass:238.029, group:null, period:7,
+    category:'actinide', electronegativity:1.38, atomicRadius:138, meltingPoint:1135, boilingPoint:4131,
+    electronConfig:'[Rn] 5f³ 6d¹ 7s²', electronsPerShell:[2,8,18,32,21,9,2], molarMass:238.029, density:19.10,
+    uses:'Uranium is the primary fuel for nuclear power plants, generating about 10% of the world\'s electricity with minimal greenhouse gas emissions. Depleted uranium is used in armor-piercing ammunition and radiation shielding.',
+    discovered:1789, discoveredBy:'Martin Heinrich Klaproth', phase:'Solid',
+  },
+  {
+    atomicNumber:93, symbol:'Np', name:'Neptunium',  atomicMass:237,     group:null, period:7,
+    category:'actinide', electronegativity:1.36, atomicRadius:155, meltingPoint:644, boilingPoint:4000,
+    electronConfig:'[Rn] 5f⁴ 6d¹ 7s²', electronsPerShell:[2,8,18,32,22,9,2], molarMass:237, density:20.45,
+    uses:'Neptunium is used in neutron detection instruments for monitoring nuclear reactors. Neptunium-237 can also be used to produce plutonium-238 for radioisotope thermoelectric generators in spacecraft.',
+    discovered:1940, discoveredBy:'Edwin McMillan', phase:'Solid',
+  },

@@ -691,3 +691,17 @@ export const elements = [
     uses:'Berkelium has no practical applications outside of scientific research. It was used as a target material in the discovery of elements 117 (tennessine) and 118 (oganesson).',
     discovered:1949, discoveredBy:'Glenn T. Seaborg', phase:'Solid',
   },
+    {
+    atomicNumber:98, symbol:'Cf', name:'Californium',atomicMass:251,     group:null, period:7,
+    category:'actinide', electronegativity:1.30, atomicRadius:168, meltingPoint:900, boilingPoint:1470,
+    electronConfig:'[Rn] 5f¹⁰ 7s²', electronsPerShell:[2,8,18,32,28,8,2], molarMass:251, density:15.10,
+    uses:'Californium-252 is a powerful neutron emitter used for starting nuclear reactors and in neutron activation analysis to detect gold and silver ore. It is also used in cancer treatments.',
+    discovered:1950, discoveredBy:'Glenn T. Seaborg', phase:'Solid',
+  },
+  {
+    atomicNumber:99, symbol:'Es', name:'Einsteinium',atomicMass:252,     group:null, period:7,
+    category:'actinide', electronegativity:1.30, atomicRadius:165, meltingPoint:860, boilingPoint:996,
+    electronConfig:'[Rn] 5f¹¹ 7s²', electronsPerShell:[2,8,18,32,29,8,2], molarMass:252, density:8.84,
+    uses:'Einsteinium was first discovered in the fallout of the first hydrogen bomb test in 1952. Due to its extreme scarcity, it has no practical applications beyond fundamental scientific research.',
+    discovered:1952, discoveredBy:'Albert Ghiorso', phase:'Solid',
+  },

@@ -635,3 +635,17 @@ export const elements = [
     uses:'Actinium is intensely radioactive and glows blue in the dark due to ionization of surrounding air. Actinium-225 is being investigated for targeted alpha-particle cancer therapy.',
     discovered:1899, discoveredBy:'André-Louis Debierne', phase:'Solid',
   },
+    {
+    atomicNumber:90, symbol:'Th', name:'Thorium',    atomicMass:232.038, group:null, period:7,
+    category:'actinide', electronegativity:1.30, atomicRadius:179, meltingPoint:1750, boilingPoint:4820,
+    electronConfig:'[Rn] 6d² 7s²', electronsPerShell:[2,8,18,32,18,10,2], molarMass:232.038, density:11.72,
+    uses:'Thorium is being investigated as a safer alternative nuclear fuel to uranium, with less waste and proliferation risk. Thorium oxide was historically used in high-refractive-index optical glass.',
+    discovered:1829, discoveredBy:'Jöns Jacob Berzelius', phase:'Solid',
+  },
+  {
+    atomicNumber:91, symbol:'Pa', name:'Protactinium',atomicMass:231.036,group:null, period:7,
+    category:'actinide', electronegativity:1.50, atomicRadius:163, meltingPoint:1568, boilingPoint:4027,
+    electronConfig:'[Rn] 5f² 6d¹ 7s²', electronsPerShell:[2,8,18,32,20,9,2], molarMass:231.036, density:15.37,
+    uses:'Protactinium has no significant commercial applications due to its rarity, high radioactivity, and toxicity. It is used in scientific research to understand the chemistry of actinide elements.',
+    discovered:1913, discoveredBy:'Kasimir Fajans', phase:'Solid',
+  },

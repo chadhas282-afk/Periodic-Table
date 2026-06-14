@@ -579,3 +579,17 @@ export const elements = [
     uses:'Thallium-201 is used in cardiac stress tests (myocardial perfusion imaging) to diagnose heart disease. Thallium sulfide is used in photocells sensitive to infrared radiation.',
     discovered:1861, discoveredBy:'William Crookes', phase:'Solid',
   },
+    {
+    atomicNumber:82, symbol:'Pb', name:'Lead',       atomicMass:207.2,   group:14, period:6,
+    category:'post-transition-metal', electronegativity:2.33, atomicRadius:154, meltingPoint:327.46, boilingPoint:1749,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²', electronsPerShell:[2,8,18,32,18,4], molarMass:207.2, density:11.34,
+    uses:'Lead-acid batteries remain the most widely produced rechargeable battery technology, used in vehicles and backup power systems. Lead\'s high density makes it essential for X-ray shielding in medical and nuclear facilities.',
+    discovered:-6500, discoveredBy:'Ancient times', phase:'Solid',
+  },
+  {
+    atomicNumber:83, symbol:'Bi', name:'Bismuth',    atomicMass:208.980, group:15, period:6,
+    category:'post-transition-metal', electronegativity:2.02, atomicRadius:143, meltingPoint:271.40, boilingPoint:1564,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³', electronsPerShell:[2,8,18,32,18,5], molarMass:208.980, density:9.747,
+    uses:'Bismuth subsalicylate is the active ingredient in Pepto-Bismol, used to treat upset stomachs and diarrhea. Bismuth alloys have low melting points used in fire sprinkler heads, solders, and type metal.',
+    discovered:1400, discoveredBy:'Unknown', phase:'Solid',
+  },

@@ -705,3 +705,17 @@ export const elements = [
     uses:'Einsteinium was first discovered in the fallout of the first hydrogen bomb test in 1952. Due to its extreme scarcity, it has no practical applications beyond fundamental scientific research.',
     discovered:1952, discoveredBy:'Albert Ghiorso', phase:'Solid',
   },
+    {
+    atomicNumber:100, symbol:'Fm', name:'Fermium',   atomicMass:257,     group:null, period:7,
+    category:'actinide', electronegativity:1.30, atomicRadius:167, meltingPoint:1527, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹² 7s²', electronsPerShell:[2,8,18,32,30,8,2], molarMass:257, density:null,
+    uses:'Fermium has no practical applications due to its extremely short half-lives and the microscopic quantities produced. It is studied purely for scientific understanding of actinide chemistry.',
+    discovered:1952, discoveredBy:'Albert Ghiorso', phase:'Solid',
+  },
+  {
+    atomicNumber:101, symbol:'Md', name:'Mendelevium',atomicMass:258,    group:null, period:7,
+    category:'actinide', electronegativity:1.30, atomicRadius:173, meltingPoint:827, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹³ 7s²', electronsPerShell:[2,8,18,32,31,8,2], molarMass:258, density:null,
+    uses:'Mendelevium has no practical applications and is produced only in extremely small quantities for scientific research. It was the first element to be produced one atom at a time.',
+    discovered:1955, discoveredBy:'Albert Ghiorso', phase:'Solid',
+  },

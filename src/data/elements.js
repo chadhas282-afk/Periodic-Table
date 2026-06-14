@@ -747,3 +747,17 @@ export const elements = [
     uses:'Dubnium has no practical applications. It is produced in nuclear reactors and particle accelerators for pure scientific research into the properties of superheavy elements.',
     discovered:1968, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
   },
+    {
+    atomicNumber:106, symbol:'Sg', name:'Seaborgium', atomicMass:269,    group:6,  period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:132, meltingPoint:null, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹⁴ 6d⁴ 7s²', electronsPerShell:[2,8,18,32,32,12,2], molarMass:269, density:35.0,
+    uses:'Seaborgium was named in honor of Glenn Seaborg, the Nobel laureate who co-discovered many transuranic elements. It has no practical applications and is studied purely for nuclear physics research.',
+    discovered:1974, discoveredBy:'Albert Ghiorso', phase:'Solid',
+  },
+  {
+    atomicNumber:107, symbol:'Bh', name:'Bohrium',   atomicMass:270,     group:7,  period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:128, meltingPoint:null, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹⁴ 6d⁵ 7s²', electronsPerShell:[2,8,18,32,32,13,2], molarMass:270, density:37.1,
+    uses:'Bohrium has no practical applications. Named after Niels Bohr, it is studied to verify periodic table trends in extreme regions of the chart of nuclides.',
+    discovered:1981, discoveredBy:'Peter Armbruster', phase:'Solid',
+  },

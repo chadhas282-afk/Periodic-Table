@@ -565,3 +565,17 @@ export const elements = [
     uses:'Gold is the most malleable of all metals, used in jewelry, coins, and monetary reserves for millennia. In modern technology, gold\'s conductivity and corrosion resistance are indispensable in electronics and satellite components.',
     discovered:-6000, discoveredBy:'Ancient times', phase:'Solid',
   },
+    {
+    atomicNumber:80, symbol:'Hg', name:'Mercury',    atomicMass:200.592, group:12, period:6,
+    category:'transition-metal', electronegativity:2.00, atomicRadius:171, meltingPoint:-38.83, boilingPoint:356.73,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹⁰ 6s²', electronsPerShell:[2,8,18,32,18,2], molarMass:200.592, density:13.534,
+    uses:'Mercury is the only metal that is liquid at room temperature, historically used in thermometers and barometers. Mercury vapor is used in fluorescent lamps and specialized scientific instruments.',
+    discovered:-1500, discoveredBy:'Ancient times', phase:'Liquid',
+  },
+  {
+    atomicNumber:81, symbol:'Tl', name:'Thallium',   atomicMass:204.38,  group:13, period:6,
+    category:'post-transition-metal', electronegativity:1.62, atomicRadius:156, meltingPoint:304, boilingPoint:1473,
+    electronConfig:'[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹', electronsPerShell:[2,8,18,32,18,3], molarMass:204.38, density:11.85,
+    uses:'Thallium-201 is used in cardiac stress tests (myocardial perfusion imaging) to diagnose heart disease. Thallium sulfide is used in photocells sensitive to infrared radiation.',
+    discovered:1861, discoveredBy:'William Crookes', phase:'Solid',
+  },

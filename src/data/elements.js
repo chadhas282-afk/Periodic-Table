@@ -733,3 +733,17 @@ export const elements = [
     uses: 'Lawrencium is the last actinide element, studied to understand the limit of the f-block series. It has no practical uses; only a few atoms have ever been produced.',
     discovered: 1961, discoveredBy: 'Albert Ghiorso', phase: 'Solid',
   },
+    {
+    atomicNumber:104, symbol:'Rf', name:'Rutherfordium',atomicMass:267,  group:4,  period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:150, meltingPoint:2100, boilingPoint:5500,
+    electronConfig:'[Rn] 5f¹⁴ 6d² 7s²', electronsPerShell:[2,8,18,32,32,10,2], molarMass:267, density:23.2,
+    uses:'Rutherfordium has no practical applications. Only a few hundred atoms have ever been produced, used exclusively to study the chemistry of superheavy elements at the boundary of known periodic trends.',
+    discovered:1964, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
+  },
+  {
+    atomicNumber:105, symbol:'Db', name:'Dubnium',   atomicMass:268,     group:5,  period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:139, meltingPoint:null, boilingPoint:null,
+    electronConfig:'[Rn] 5f¹⁴ 6d³ 7s²', electronsPerShell:[2,8,18,32,32,11,2], molarMass:268, density:29.3,
+    uses:'Dubnium has no practical applications. It is produced in nuclear reactors and particle accelerators for pure scientific research into the properties of superheavy elements.',
+    discovered:1968, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
+  },

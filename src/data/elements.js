@@ -677,3 +677,17 @@ export const elements = [
     uses:'Americium-241 is used in ionization-type smoke detectors found in hundreds of millions of homes worldwide. It is the only synthetic element with a common consumer application.',
     discovered:1944, discoveredBy:'Glenn T. Seaborg', phase:'Solid',
   },
+    {
+    atomicNumber:96, symbol:'Cm', name:'Curium',     atomicMass:247,     group:null, period:7,
+    category:'actinide', electronegativity:1.30, atomicRadius:174, meltingPoint:1345, boilingPoint:3110,
+    electronConfig:'[Rn] 5f⁷ 6d¹ 7s²', electronsPerShell:[2,8,18,32,25,9,2], molarMass:247, density:13.51,
+    uses:'Curium-244 was used as an alpha-particle source in the Mars Pathfinder Alpha Proton X-ray Spectrometer to analyze the composition of Martian rocks. It glows purple-red from its own radioactive decay.',
+    discovered:1944, discoveredBy:'Glenn T. Seaborg', phase:'Solid',
+  },
+  {
+    atomicNumber:97, symbol:'Bk', name:'Berkelium',  atomicMass:247,     group:null, period:7,
+    category:'actinide', electronegativity:1.30, atomicRadius:170, meltingPoint:1050, boilingPoint:2627,
+    electronConfig:'[Rn] 5f⁹ 7s²', electronsPerShell:[2,8,18,32,27,8,2], molarMass:247, density:14.79,
+    uses:'Berkelium has no practical applications outside of scientific research. It was used as a target material in the discovery of elements 117 (tennessine) and 118 (oganesson).',
+    discovered:1949, discoveredBy:'Glenn T. Seaborg', phase:'Solid',
+  },

@@ -621,3 +621,17 @@ export const elements = [
     uses:'Francium is one of the rarest and most radioactive elements, practically impossible to accumulate in visible quantities. It has no significant commercial applications and is used only in scientific research.',
     discovered:1939, discoveredBy:'Marguerite Perey', phase:'Solid',
   },
+    {
+    atomicNumber:88, symbol:'Ra', name:'Radium',     atomicMass:226,     group:2,  period:7,
+    category:'alkaline-earth-metal', electronegativity:0.90, atomicRadius:215, meltingPoint:696, boilingPoint:1737,
+    electronConfig:'[Rn] 7s²', electronsPerShell:[2,8,18,32,18,8,2], molarMass:226, density:5.00,
+    uses:'Radium was historically used in luminous paint (radium dial era). Today, Radium-223 is used in targeted alpha therapy for treating bone metastases in prostate cancer patients.',
+    discovered:1898, discoveredBy:'Marie Curie', phase:'Solid',
+  },
+  {
+    atomicNumber:89, symbol:'Ac', name:'Actinium',   atomicMass:227,     group:null, period:7,
+    category:'actinide', electronegativity:1.10, atomicRadius:195, meltingPoint:1051, boilingPoint:3198,
+    electronConfig:'[Rn] 6d¹ 7s²', electronsPerShell:[2,8,18,32,18,9,2], molarMass:227, density:10.07,
+    uses:'Actinium is intensely radioactive and glows blue in the dark due to ionization of surrounding air. Actinium-225 is being investigated for targeted alpha-particle cancer therapy.',
+    discovered:1899, discoveredBy:'André-Louis Debierne', phase:'Solid',
+  },

@@ -663,3 +663,17 @@ export const elements = [
     uses:'Neptunium is used in neutron detection instruments for monitoring nuclear reactors. Neptunium-237 can also be used to produce plutonium-238 for radioisotope thermoelectric generators in spacecraft.',
     discovered:1940, discoveredBy:'Edwin McMillan', phase:'Solid',
   },
+    {
+    atomicNumber:94, symbol:'Pu', name:'Plutonium',  atomicMass:244,     group:null, period:7,
+    category:'actinide', electronegativity:1.28, atomicRadius:151, meltingPoint:639.4, boilingPoint:3228,
+    electronConfig:'[Rn] 5f⁶ 7s²', electronsPerShell:[2,8,18,32,24,8,2], molarMass:244, density:19.84,
+    uses:'Plutonium-239 is a primary fissile material used in nuclear weapons. Plutonium-238 powers Radioisotope Thermoelectric Generators (RTGs) in deep-space probes like Voyager and the Mars rovers.',
+    discovered:1940, discoveredBy:'Glenn T. Seaborg', phase:'Solid',
+  },
+  {
+    atomicNumber:95, symbol:'Am', name:'Americium',  atomicMass:243,     group:null, period:7,
+    category:'actinide', electronegativity:1.30, atomicRadius:173, meltingPoint:1176, boilingPoint:2607,
+    electronConfig:'[Rn] 5f⁷ 7s²', electronsPerShell:[2,8,18,32,25,8,2], molarMass:243, density:13.69,
+    uses:'Americium-241 is used in ionization-type smoke detectors found in hundreds of millions of homes worldwide. It is the only synthetic element with a common consumer application.',
+    discovered:1944, discoveredBy:'Glenn T. Seaborg', phase:'Solid',
+  },

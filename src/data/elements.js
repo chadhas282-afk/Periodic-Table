@@ -789,7 +789,13 @@ export const elements = [
     uses:'Roentgenium has no practical applications. Named after Wilhelm Röntgen, discoverer of X-rays, it is produced in microgram-scale experiments studying the limits of nuclear stability.',
     discovered:1994, discoveredBy:'S. Hofmann', phase:'Solid',
   },
-
+  {
+    atomicNumber:112, symbol:'Cn', name:'Copernicium',atomicMass:285,    group:12, period:7,
+    category:'transition-metal', electronegativity:null, atomicRadius:122, meltingPoint:-112, boilingPoint:357,
+    electronConfig:'[Rn] 5f¹⁴ 6d¹⁰ 7s²', electronsPerShell:[2,8,18,32,32,18,2], molarMass:285, density:23.7,
+    uses:'Copernicium is predicted to be a gas at room temperature, unlike other group-12 elements. Named after Nicolaus Copernicus, it is studied to explore relativistic effects on chemical properties.',
+    discovered:1996, discoveredBy:'S. Hofmann', phase:'Gas',
+  },
   {
     atomicNumber:113, symbol:'Nh', name:'Nihonium',  atomicMass:286,     group:13, period:7,
     category:'post-transition-metal', electronegativity:null, atomicRadius:170, meltingPoint:430, boilingPoint:1130,

@@ -810,13 +810,7 @@ export const elements = [
     uses:'Flerovium is predicted to be a gas or volatile liquid, exhibiting noble-gas-like behavior due to relativistic effects despite being in group 14. It has no practical uses at this time.',
     discovered:1999, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
   },
-  {
-    atomicNumber:115, symbol:'Mc', name:'Moscovium', atomicMass:290,     group:15, period:7,
-    category:'post-transition-metal', electronegativity:null, atomicRadius:187, meltingPoint:400, boilingPoint:1100,
-    electronConfig:'[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³', electronsPerShell:[2,8,18,32,32,18,5], molarMass:290, density:13.5,
-    uses:'Moscovium has no practical applications. Named after Moscow Oblast, Russia, it was created by bombarding americium with calcium ions and has a half-life of only 220 milliseconds.',
-    discovered:2003, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
-  },
+  
   {
     atomicNumber:116, symbol:'Lv', name:'Livermorium',atomicMass:293,    group:16, period:7,
     category:'post-transition-metal', electronegativity:null, atomicRadius:183, meltingPoint:637, boilingPoint:1085,

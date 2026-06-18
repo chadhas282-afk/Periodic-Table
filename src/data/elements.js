@@ -845,3 +845,4 @@ export const elementsByNumber = elements.reduce((acc, el) => {
 }, {});
 
 export function getElementPosition(element) {
+  if (element.category === 'lanthanide') {

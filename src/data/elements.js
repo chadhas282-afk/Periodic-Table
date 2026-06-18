@@ -852,3 +852,5 @@ export function getElementPosition(element) {
     return { col: element.atomicNumber - 89 + 4, row: 10 };
   }
   const col = element.group || null;
+  return { col, row: element.period };
+}

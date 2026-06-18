@@ -831,7 +831,13 @@ export const elements = [
     uses:'Tennessine has no practical applications. Named after Tennessee, USA, it was first synthesized in 2010 using berkelium-249 as the target, requiring enormous quantities of that rare element.',
     discovered:2010, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
   },
-  
+  {
+    atomicNumber:118, symbol:'Og', name:'Oganesson',  atomicMass:294,    group:18, period:7,
+    category:'noble-gas', electronegativity:null, atomicRadius:152, meltingPoint:52, boilingPoint:177,
+    electronConfig:'[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶', electronsPerShell:[2,8,18,32,32,18,8], molarMass:294, density:5.0,
+    uses:'Oganesson is the heaviest element ever synthesized and the only period-7 noble gas. Named after Yuri Oganessian, it is predicted to be a solid at room temperature due to relativistic effects, unlike lighter noble gases.',
+    discovered:2002, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
+  },
 ];
 export const elementsByNumber = elements.reduce((acc, el) => {
   acc[el.atomicNumber] = el;

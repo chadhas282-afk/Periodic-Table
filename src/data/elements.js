@@ -817,13 +817,7 @@ export const elements = [
     uses:'Moscovium has no practical applications. Named after Moscow Oblast, Russia, it was created by bombarding americium with calcium ions and has a half-life of only 220 milliseconds.',
     discovered:2003, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
   },
-  {
-    atomicNumber:116, symbol:'Lv', name:'Livermorium',atomicMass:293,    group:16, period:7,
-    category:'post-transition-metal', electronegativity:null, atomicRadius:183, meltingPoint:637, boilingPoint:1085,
-    electronConfig:'[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴', electronsPerShell:[2,8,18,32,32,18,6], molarMass:293, density:12.9,
-    uses:'Livermorium has no practical applications. Named after Lawrence Livermore National Laboratory, it is studied to understand the chemistry of superheavy elements at the bottom of the periodic table.',
-    discovered:2000, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
-  },
+  
   {
     atomicNumber:117, symbol:'Ts', name:'Tennessine', atomicMass:294,    group:17, period:7,
     category:'halogen', electronegativity:null, atomicRadius:138, meltingPoint:350, boilingPoint:610,

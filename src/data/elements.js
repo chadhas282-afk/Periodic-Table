@@ -849,3 +849,5 @@ export function getElementPosition(element) {
      return { col: element.atomicNumber - 57 + 4, row: 9 };
      }
   if (element.category === 'actinide') {
+    return { col: element.atomicNumber - 89 + 4, row: 10 };
+  }

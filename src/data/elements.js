@@ -796,13 +796,7 @@ export const elements = [
     uses:'Copernicium is predicted to be a gas at room temperature, unlike other group-12 elements. Named after Nicolaus Copernicus, it is studied to explore relativistic effects on chemical properties.',
     discovered:1996, discoveredBy:'S. Hofmann', phase:'Gas',
   },
-  {
-    atomicNumber:113, symbol:'Nh', name:'Nihonium',  atomicMass:286,     group:13, period:7,
-    category:'post-transition-metal', electronegativity:null, atomicRadius:170, meltingPoint:430, boilingPoint:1130,
-    electronConfig:'[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹', electronsPerShell:[2,8,18,32,32,18,3], molarMass:286, density:16,
-    uses:'Nihonium has no practical applications. It was the first element discovered in Asia (Japan, hence "Nihon") and is being studied for its interesting predicted chemistry due to relativistic effects.',
-    discovered:2004, discoveredBy:'RIKEN Nishina Center', phase:'Solid',
-  },
+ 
   {
     atomicNumber:114, symbol:'Fl', name:'Flerovium',  atomicMass:289,    group:14, period:7,
     category:'post-transition-metal', electronegativity:null, atomicRadius:180, meltingPoint:-60, boilingPoint:147,

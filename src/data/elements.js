@@ -846,3 +846,4 @@ export const elementsByNumber = elements.reduce((acc, el) => {
 
 export function getElementPosition(element) {
   if (element.category === 'lanthanide') {
+     return { col: element.atomicNumber - 57 + 4, row: 9 };

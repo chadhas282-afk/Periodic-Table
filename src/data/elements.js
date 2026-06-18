@@ -840,3 +840,4 @@ export const elements = [
   },
 ];
 export const elementsByNumber = elements.reduce((acc, el) => {
+  acc[el.atomicNumber] = el;

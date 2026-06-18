@@ -824,7 +824,13 @@ export const elements = [
     uses:'Livermorium has no practical applications. Named after Lawrence Livermore National Laboratory, it is studied to understand the chemistry of superheavy elements at the bottom of the periodic table.',
     discovered:2000, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
   },
-  
+  {
+    atomicNumber:117, symbol:'Ts', name:'Tennessine', atomicMass:294,    group:17, period:7,
+    category:'halogen', electronegativity:null, atomicRadius:138, meltingPoint:350, boilingPoint:610,
+    electronConfig:'[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵', electronsPerShell:[2,8,18,32,32,18,7], molarMass:294, density:7.2,
+    uses:'Tennessine has no practical applications. Named after Tennessee, USA, it was first synthesized in 2010 using berkelium-249 as the target, requiring enormous quantities of that rare element.',
+    discovered:2010, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
+  },
   {
     atomicNumber:118, symbol:'Og', name:'Oganesson',  atomicMass:294,    group:18, period:7,
     category:'noble-gas', electronegativity:null, atomicRadius:152, meltingPoint:52, boilingPoint:177,

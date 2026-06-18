@@ -839,3 +839,4 @@ export const elements = [
     discovered: 2002, discoveredBy: 'Joint Institute for Nuclear Research', phase: 'Solid',
   },
 ];
+export const elementsByNumber = elements.reduce((acc, el) => {

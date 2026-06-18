@@ -803,13 +803,7 @@ export const elements = [
     uses:'Nihonium has no practical applications. It was the first element discovered in Asia (Japan, hence "Nihon") and is being studied for its interesting predicted chemistry due to relativistic effects.',
     discovered:2004, discoveredBy:'RIKEN Nishina Center', phase:'Solid',
   },
-  {
-    atomicNumber:114, symbol:'Fl', name:'Flerovium',  atomicMass:289,    group:14, period:7,
-    category:'post-transition-metal', electronegativity:null, atomicRadius:180, meltingPoint:-60, boilingPoint:147,
-    electronConfig:'[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²', electronsPerShell:[2,8,18,32,32,18,4], molarMass:289, density:14,
-    uses:'Flerovium is predicted to be a gas or volatile liquid, exhibiting noble-gas-like behavior due to relativistic effects despite being in group 14. It has no practical uses at this time.',
-    discovered:1999, discoveredBy:'Joint Institute for Nuclear Research', phase:'Solid',
-  },
+ 
   {
     atomicNumber:115, symbol:'Mc', name:'Moscovium', atomicMass:290,     group:15, period:7,
     category:'post-transition-metal', electronegativity:null, atomicRadius:187, meltingPoint:400, boilingPoint:1100,

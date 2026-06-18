@@ -851,3 +851,4 @@ export function getElementPosition(element) {
   if (element.category === 'actinide') {
     return { col: element.atomicNumber - 89 + 4, row: 10 };
   }
+  const col = element.group || null;
